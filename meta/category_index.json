@@ -1,5 +1,9 @@
 {
   "categories": {
+    "computer_science": [
+      "GH-000003",
+      "GH-000004"
+    ],
     "programming": [
       "GH-000001",
       "GH-000002"

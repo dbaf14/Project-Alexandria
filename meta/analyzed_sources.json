@@ -1,6 +1,24 @@
 {
-  "count": 2,
+  "count": 4,
   "sources": [
+    {
+      "id": "GH-000003",
+      "type": "github",
+      "category": "computer_science",
+      "name": "llama.cpp",
+      "location": "https://github.com/ggml-org/llama.cpp",
+      "status": "active",
+      "file": "category/computer_science/GH-000003.json"
+    },
+    {
+      "id": "GH-000004",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Stable Diffusion (CompVis)",
+      "location": "https://github.com/CompVis/stable-diffusion",
+      "status": "unknown",
+      "file": "category/computer_science/GH-000004.json"
+    },
     {
       "id": "GH-000001",
       "type": "github",

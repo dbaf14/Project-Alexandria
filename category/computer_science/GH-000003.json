@@ -20,5 +20,6 @@
     "quantization",
     "edge-computing"
   ],
-  "source_notes": "Plain C/C++ inference engine for large language models, minimal setup, wide hardware support including Apple Silicon, CUDA, and Vulkan backends."
+  "source_notes": "Plain C/C++ inference engine for large language models, minimal setup, wide hardware support including Apple Silicon, CUDA, and Vulkan backends.",
+  "id": "GH-000003"
 }

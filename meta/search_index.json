@@ -1,6 +1,30 @@
 {
-  "count": 2,
+  "count": 4,
   "entries": [
+    {
+      "id": "GH-000003",
+      "name": "llama.cpp",
+      "category": "computer_science",
+      "tags": [
+        "machine-learning",
+        "llm-inference",
+        "quantization",
+        "edge-computing"
+      ],
+      "text": "llama.cpp github computer_science machine-learning llm-inference quantization edge-computing large model files require quantization to run on consumer hardware frequent breaking changes to internal apis as project evolves quickly ggml c cpp"
+    },
+    {
+      "id": "GH-000004",
+      "name": "Stable Diffusion (CompVis)",
+      "category": "computer_science",
+      "tags": [
+        "machine-learning",
+        "text-to-image",
+        "latent-diffusion",
+        "generative-ai"
+      ],
+      "text": "stable diffusion (compvis) github computer_science machine-learning text-to-image latent-diffusion generative-ai requires gpu with at least 10gb vram for original checkpoints official stability-ai fork (stablediffusion) repository has been unavailable/private since 2025, breaking downstream tools that clone it directly pytorch cuda clip laion-5b-subset"
+    },
     {
       "id": "GH-000001",
       "name": "Bomberman 64: Recompiled",

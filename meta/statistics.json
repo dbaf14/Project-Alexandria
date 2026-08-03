@@ -1,21 +1,24 @@
 {
-  "generated_at": "2026-08-03T01:44:50.019779+00:00",
-  "total_entries": 2,
+  "generated_at": "2026-08-03T01:45:25.234881+00:00",
+  "total_entries": 4,
   "total_connections": 0,
   "by_category": {
+    "computer_science": 2,
     "programming": 2
   },
   "by_type": {
-    "github": 2
+    "github": 4
   },
   "by_status": {
-    "active": 2
+    "active": 3,
+    "unknown": 1
   },
   "by_development": {
-    "ongoing": 2
+    "ongoing": 3,
+    "stalled": 1
   },
   "works": {
-    "true": 2,
+    "true": 4,
     "false": 0,
     "unknown": 0
   }

@@ -21,5 +21,6 @@
     "latent-diffusion",
     "generative-ai"
   ],
-  "source_notes": "Latent text-to-image diffusion model, originally by CompVis/Stability AI/Runway. Trained on a LAION-5B subset."
+  "source_notes": "Latent text-to-image diffusion model, originally by CompVis/Stability AI/Runway. Trained on a LAION-5B subset.",
+  "id": "GH-000004"
 }

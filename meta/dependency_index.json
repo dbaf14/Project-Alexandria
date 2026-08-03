@@ -1,17 +1,36 @@
 {
-  "unique_dependencies": 5,
+  "unique_dependencies": 11,
   "dependencies": {
     "c": [
-      "GH-000002"
+      "GH-000002",
+      "GH-000003"
+    ],
+    "clip": [
+      "GH-000004"
+    ],
+    "cpp": [
+      "GH-000003"
     ],
     "cpp-compiler": [
       "GH-000002"
     ],
+    "cuda": [
+      "GH-000004"
+    ],
     "directx-12-or-vulkan-1.2-or-metal": [
       "GH-000001"
     ],
+    "ggml": [
+      "GH-000003"
+    ],
+    "laion-5b-subset": [
+      "GH-000004"
+    ],
     "n64recomp": [
       "GH-000001"
+    ],
+    "pytorch": [
+      "GH-000004"
     ],
     "rt64": [
       "GH-000001"
