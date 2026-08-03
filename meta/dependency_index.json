@@ -1,6 +1,9 @@
 {
-  "unique_dependencies": 11,
+  "unique_dependencies": 28,
   "dependencies": {
+    "behaviortree-cpp": [
+      "GH-000011"
+    ],
     "c": [
       "GH-000002",
       "GH-000003"
@@ -8,8 +11,19 @@
     "clip": [
       "GH-000004"
     ],
+    "cmake": [
+      "GH-000013"
+    ],
     "cpp": [
-      "GH-000003"
+      "GH-000003",
+      "GH-000005",
+      "GH-000006",
+      "GH-000007",
+      "GH-000010",
+      "GH-000011",
+      "GH-000012",
+      "GH-000013",
+      "GH-000014"
     ],
     "cpp-compiler": [
       "GH-000002"
@@ -17,23 +31,74 @@
     "cuda": [
       "GH-000004"
     ],
+    "dds-middleware": [
+      "GH-000013"
+    ],
+    "dds-xrce": [
+      "GH-000009"
+    ],
     "directx-12-or-vulkan-1.2-or-metal": [
       "GH-000001"
+    ],
+    "freertos-or-zephyr-or-nuttx": [
+      "GH-000009"
     ],
     "ggml": [
       "GH-000003"
     ],
+    "huggingface-hub": [
+      "GH-000008"
+    ],
     "laion-5b-subset": [
       "GH-000004"
+    ],
+    "mavlink": [
+      "GH-000005",
+      "GH-000012"
     ],
     "n64recomp": [
       "GH-000001"
     ],
+    "nuttx": [
+      "GH-000012"
+    ],
+    "ogre": [
+      "GH-000007"
+    ],
+    "ompl": [
+      "GH-000010"
+    ],
+    "opencv": [
+      "GH-000014"
+    ],
+    "opengl": [
+      "GH-000006"
+    ],
+    "pcl": [
+      "GH-000014"
+    ],
+    "python": [
+      "GH-000005",
+      "GH-000008",
+      "GH-000013"
+    ],
     "pytorch": [
-      "GH-000004"
+      "GH-000004",
+      "GH-000008"
+    ],
+    "ros2": [
+      "GH-000009",
+      "GH-000010",
+      "GH-000011"
     ],
     "rt64": [
       "GH-000001"
+    ],
+    "sdformat": [
+      "GH-000007"
+    ],
+    "uorb": [
+      "GH-000012"
     ]
   }
 }

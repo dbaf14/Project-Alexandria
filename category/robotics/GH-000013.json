@@ -21,5 +21,6 @@
     "meta-operating-system",
     "publish-subscribe"
   ],
-  "source_notes": "Meta-repository for the Robot Operating System (ROS) 2, a meta operating system and middleware framework for robot software, maintained by Open Robotics / OSRF."
+  "source_notes": "Meta-repository for the Robot Operating System (ROS) 2, a meta operating system and middleware framework for robot software, maintained by Open Robotics / OSRF.",
+  "id": "GH-000013"
 }

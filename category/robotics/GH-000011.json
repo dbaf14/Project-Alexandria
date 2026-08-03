@@ -19,5 +19,6 @@
     "mobile-robots",
     "behavior-trees"
   ],
-  "source_notes": "ROS 2 navigation framework and successor to the original ROS Navigation Stack, providing perception, planning, control, and localization for mobile robot navigation. Project leadership by Open Navigation LLC."
+  "source_notes": "ROS 2 navigation framework and successor to the original ROS Navigation Stack, providing perception, planning, control, and localization for mobile robot navigation. Project leadership by Open Navigation LLC.",
+  "id": "GH-000011"
 }

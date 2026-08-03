@@ -20,5 +20,6 @@
     "uav",
     "flight-controller"
   ],
-  "source_notes": "Open-source flight control software for drones and other unmanned vehicles (multirotors, fixed-wing, VTOL, rovers). Hosted by the Dronecode Foundation (Linux Foundation), licensed under BSD 3-Clause."
+  "source_notes": "Open-source flight control software for drones and other unmanned vehicles (multirotors, fixed-wing, VTOL, rovers). Hosted by the Dronecode Foundation (Linux Foundation), licensed under BSD 3-Clause.",
+  "id": "GH-000012"
 }

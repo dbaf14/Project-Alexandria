@@ -1,24 +1,26 @@
 {
-  "generated_at": "2026-08-03T01:45:25.234881+00:00",
-  "total_entries": 4,
+  "generated_at": "2026-08-03T06:28:03.101212+00:00",
+  "total_entries": 14,
   "total_connections": 0,
   "by_category": {
     "computer_science": 2,
-    "programming": 2
+    "programming": 2,
+    "robotics": 10
   },
   "by_type": {
-    "github": 4
+    "github": 14
   },
   "by_status": {
-    "active": 3,
-    "unknown": 1
+    "active": 12,
+    "unknown": 2
   },
   "by_development": {
-    "ongoing": 3,
-    "stalled": 1
+    "ongoing": 12,
+    "stalled": 1,
+    "unknown": 1
   },
   "works": {
-    "true": 4,
+    "true": 14,
     "false": 0,
     "unknown": 0
   }

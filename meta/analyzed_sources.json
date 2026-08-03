@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 14,
   "sources": [
     {
       "id": "GH-000003",
@@ -36,6 +36,96 @@
       "location": "https://github.com/N64Recomp/N64Recomp",
       "status": "active",
       "file": "category/programming/GH-000002.json"
+    },
+    {
+      "id": "GH-000005",
+      "type": "github",
+      "category": "robotics",
+      "name": "ArduPilot",
+      "location": "https://github.com/ArduPilot/ardupilot",
+      "status": "active",
+      "file": "category/robotics/GH-000005.json"
+    },
+    {
+      "id": "GH-000006",
+      "type": "github",
+      "category": "robotics",
+      "name": "Bullet Physics SDK (bullet3)",
+      "location": "https://github.com/bulletphysics/bullet3",
+      "status": "unknown",
+      "file": "category/robotics/GH-000006.json"
+    },
+    {
+      "id": "GH-000007",
+      "type": "github",
+      "category": "robotics",
+      "name": "Gazebo Sim (gz-sim)",
+      "location": "https://github.com/gazebosim/gz-sim",
+      "status": "active",
+      "file": "category/robotics/GH-000007.json"
+    },
+    {
+      "id": "GH-000008",
+      "type": "github",
+      "category": "robotics",
+      "name": "LeRobot",
+      "location": "https://github.com/huggingface/lerobot",
+      "status": "active",
+      "file": "category/robotics/GH-000008.json"
+    },
+    {
+      "id": "GH-000009",
+      "type": "github",
+      "category": "robotics",
+      "name": "micro-ROS (micro_ros_setup)",
+      "location": "https://github.com/micro-ROS/micro_ros_setup",
+      "status": "active",
+      "file": "category/robotics/GH-000009.json"
+    },
+    {
+      "id": "GH-000010",
+      "type": "github",
+      "category": "robotics",
+      "name": "MoveIt 2",
+      "location": "https://github.com/moveit/moveit2",
+      "status": "active",
+      "file": "category/robotics/GH-000010.json"
+    },
+    {
+      "id": "GH-000011",
+      "type": "github",
+      "category": "robotics",
+      "name": "Nav2 (Navigation2)",
+      "location": "https://github.com/ros-navigation/navigation2",
+      "status": "active",
+      "file": "category/robotics/GH-000011.json"
+    },
+    {
+      "id": "GH-000012",
+      "type": "github",
+      "category": "robotics",
+      "name": "PX4 Autopilot",
+      "location": "https://github.com/PX4/PX4-Autopilot",
+      "status": "active",
+      "file": "category/robotics/GH-000012.json"
+    },
+    {
+      "id": "GH-000013",
+      "type": "github",
+      "category": "robotics",
+      "name": "ROS 2 (Robot Operating System 2)",
+      "location": "https://github.com/ros2/ros2",
+      "status": "active",
+      "file": "category/robotics/GH-000013.json"
+    },
+    {
+      "id": "GH-000014",
+      "type": "github",
+      "category": "robotics",
+      "name": "RTAB-Map",
+      "location": "https://github.com/introlab/rtabmap",
+      "status": "active",
+      "file": "category/robotics/GH-000014.json"
     }
   ]
 }

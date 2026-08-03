@@ -19,5 +19,6 @@
     "rgb-d",
     "lidar"
   ],
-  "source_notes": "RGB-D, stereo, and lidar graph-based SLAM library with real-time constraints, using appearance-based loop closure detection and memory management for long-term operation. Developed at IntRoLab, Université de Sherbrooke, licensed under BSD."
+  "source_notes": "RGB-D, stereo, and lidar graph-based SLAM library with real-time constraints, using appearance-based loop closure detection and memory management for long-term operation. Developed at IntRoLab, Université de Sherbrooke, licensed under BSD.",
+  "id": "GH-000014"
 }

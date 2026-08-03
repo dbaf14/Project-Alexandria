@@ -19,5 +19,6 @@
     "uav",
     "unmanned-vehicles"
   ],
-  "source_notes": "Open-source autopilot software supporting multirotors, fixed-wing aircraft, helicopters, rovers, boats, and submarines. In development since 2010, licensed under GPLv3."
+  "source_notes": "Open-source autopilot software supporting multirotors, fixed-wing aircraft, helicopters, rovers, boats, and submarines. In development since 2010, licensed under GPLv3.",
+  "id": "GH-000005"
 }

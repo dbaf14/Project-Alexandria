@@ -20,5 +20,6 @@
     "ros2",
     "real-time"
   ],
-  "source_notes": "Entry-point ROS 2 package for building micro-ROS firmware for embedded platforms, extending the ROS 2 ecosystem to resource-constrained microcontrollers via DDS-XRCE middleware. Licensed under Apache License 2.0."
+  "source_notes": "Entry-point ROS 2 package for building micro-ROS firmware for embedded platforms, extending the ROS 2 ecosystem to resource-constrained microcontrollers via DDS-XRCE middleware. Licensed under Apache License 2.0.",
+  "id": "GH-000009"
 }

@@ -20,5 +20,6 @@
     "sensor-simulation",
     "3d-simulation"
   ],
-  "source_notes": "Open-source robotics simulator providing physics, rendering, and sensor models. Successor to Gazebo Classic, derived from over 16 years of development history. Maintained by Open Robotics."
+  "source_notes": "Open-source robotics simulator providing physics, rendering, and sensor models. Successor to Gazebo Classic, derived from over 16 years of development history. Maintained by Open Robotics.",
+  "id": "GH-000007"
 }

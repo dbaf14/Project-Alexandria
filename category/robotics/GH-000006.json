@@ -18,5 +18,6 @@
     "rigid-body-dynamics",
     "pybullet"
   ],
-  "source_notes": "Real-time collision detection and multi-physics simulation SDK used in games, visual effects, VR, robotics, and machine learning (via the PyBullet Python bindings). Licensed under the zlib license."
+  "source_notes": "Real-time collision detection and multi-physics simulation SDK used in games, visual effects, VR, robotics, and machine learning (via the PyBullet Python bindings). Licensed under the zlib license.",
+  "id": "GH-000006"
 }

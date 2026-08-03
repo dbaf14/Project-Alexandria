@@ -1,11 +1,34 @@
 {
-  "unique_tags": 12,
+  "unique_tags": 47,
   "tags": {
+    "3d-simulation": [
+      "GH-000007"
+    ],
+    "autopilot": [
+      "GH-000005",
+      "GH-000012"
+    ],
+    "behavior-trees": [
+      "GH-000011"
+    ],
+    "collision-detection": [
+      "GH-000006"
+    ],
     "compiler-toolchain": [
       "GH-000002"
     ],
+    "drone": [
+      "GH-000005",
+      "GH-000012"
+    ],
     "edge-computing": [
       "GH-000003"
+    ],
+    "embedded": [
+      "GH-000009"
+    ],
+    "flight-controller": [
+      "GH-000012"
     ],
     "game-port": [
       "GH-000001"
@@ -13,26 +36,106 @@
     "generative-ai": [
       "GH-000004"
     ],
+    "imitation-learning": [
+      "GH-000008"
+    ],
+    "kinematics": [
+      "GH-000010"
+    ],
     "latent-diffusion": [
       "GH-000004"
+    ],
+    "lidar": [
+      "GH-000014"
     ],
     "llm-inference": [
       "GH-000003"
     ],
+    "loop-closure-detection": [
+      "GH-000014"
+    ],
     "machine-learning": [
       "GH-000003",
-      "GH-000004"
+      "GH-000004",
+      "GH-000008"
+    ],
+    "manipulation": [
+      "GH-000008",
+      "GH-000010"
+    ],
+    "meta-operating-system": [
+      "GH-000013"
+    ],
+    "microcontrollers": [
+      "GH-000009"
+    ],
+    "middleware": [
+      "GH-000013"
+    ],
+    "mobile-robots": [
+      "GH-000011"
+    ],
+    "motion-planning": [
+      "GH-000010"
     ],
     "n64": [
       "GH-000001",
       "GH-000002"
     ],
+    "navigation": [
+      "GH-000011"
+    ],
+    "path-planning": [
+      "GH-000011"
+    ],
+    "physics-engine": [
+      "GH-000006"
+    ],
+    "physics-simulation": [
+      "GH-000007"
+    ],
+    "publish-subscribe": [
+      "GH-000013"
+    ],
+    "pybullet": [
+      "GH-000006"
+    ],
     "quantization": [
       "GH-000003"
+    ],
+    "real-time": [
+      "GH-000009"
     ],
     "reverse-engineering": [
       "GH-000001",
       "GH-000002"
+    ],
+    "rgb-d": [
+      "GH-000014"
+    ],
+    "rigid-body-dynamics": [
+      "GH-000006"
+    ],
+    "robot-learning": [
+      "GH-000008"
+    ],
+    "robot-operating-system": [
+      "GH-000013"
+    ],
+    "robotic-arm": [
+      "GH-000010"
+    ],
+    "robotics-simulation": [
+      "GH-000007"
+    ],
+    "ros2": [
+      "GH-000009"
+    ],
+    "sensor-simulation": [
+      "GH-000007"
+    ],
+    "slam": [
+      "GH-000014"
     ],
     "static-recompilation": [
       "GH-000001",
@@ -40,6 +143,13 @@
     ],
     "text-to-image": [
       "GH-000004"
+    ],
+    "uav": [
+      "GH-000005",
+      "GH-000012"
+    ],
+    "unmanned-vehicles": [
+      "GH-000005"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 14,
   "entries": [
     {
       "id": "GH-000003",
@@ -48,6 +48,126 @@
         "compiler-toolchain"
       ],
       "text": "n64: recompiled (n64recomp) github programming static-recompilation n64 reverse-engineering compiler-toolchain requires a curated list of symbols and metadata alongside the binary to work c cpp-compiler"
+    },
+    {
+      "id": "GH-000005",
+      "name": "ArduPilot",
+      "category": "robotics",
+      "tags": [
+        "autopilot",
+        "drone",
+        "uav",
+        "unmanned-vehicles"
+      ],
+      "text": "ardupilot github robotics autopilot drone uav unmanned-vehicles large codebase covering multiple vehicle firmwares (copter, plane, rover, sub, antennatracker) in one repository, increasing onboarding complexity mavlink cpp python"
+    },
+    {
+      "id": "GH-000006",
+      "name": "Bullet Physics SDK (bullet3)",
+      "category": "robotics",
+      "tags": [
+        "physics-engine",
+        "collision-detection",
+        "rigid-body-dynamics",
+        "pybullet"
+      ],
+      "text": "bullet physics sdk (bullet3) github robotics physics-engine collision-detection rigid-body-dynamics pybullet github issue tracker has historically been closed at times due to being flooded with support questions, redirecting users to pybullet forums instead cpp opengl"
+    },
+    {
+      "id": "GH-000007",
+      "name": "Gazebo Sim (gz-sim)",
+      "category": "robotics",
+      "tags": [
+        "robotics-simulation",
+        "physics-simulation",
+        "sensor-simulation",
+        "3d-simulation"
+      ],
+      "text": "gazebo sim (gz-sim) github robotics robotics-simulation physics-simulation sensor-simulation 3d-simulation mixed debian and from-source installations can cause gz-tools command line tools to malfunction unless gz_config_path is set correctly naming transition from 'ignition' to 'gazebo' (2022 trademark issue) still causes confusion with older documentation and packages referencing the previous name sdformat ogre cpp"
+    },
+    {
+      "id": "GH-000008",
+      "name": "LeRobot",
+      "category": "robotics",
+      "tags": [
+        "robot-learning",
+        "imitation-learning",
+        "machine-learning",
+        "manipulation"
+      ],
+      "text": "lerobot github robotics robot-learning imitation-learning machine-learning manipulation hardware support tied to specific supported robot arms/platforms (e.g. so100, koch, lekiwi); custom hardware requires additional integration work pytorch python huggingface-hub"
+    },
+    {
+      "id": "GH-000009",
+      "name": "micro-ROS (micro_ros_setup)",
+      "category": "robotics",
+      "tags": [
+        "embedded",
+        "microcontrollers",
+        "ros2",
+        "real-time"
+      ],
+      "text": "micro-ros (micro_ros_setup) github robotics embedded microcontrollers ros2 real-time provides only basic cross-platform support; deeper platform-specific integration requires separate per-platform components requires tens of kilobytes of ram at minimum, not suitable for the smallest microcontrollers ros2 dds-xrce freertos-or-zephyr-or-nuttx"
+    },
+    {
+      "id": "GH-000010",
+      "name": "MoveIt 2",
+      "category": "robotics",
+      "tags": [
+        "motion-planning",
+        "manipulation",
+        "robotic-arm",
+        "kinematics"
+      ],
+      "text": "moveit 2 github robotics motion-planning manipulation robotic-arm kinematics requires a working ros 2 installation and correctly configured robot description (urdf/srdf) before use ros2 ompl cpp"
+    },
+    {
+      "id": "GH-000011",
+      "name": "Nav2 (Navigation2)",
+      "category": "robotics",
+      "tags": [
+        "navigation",
+        "path-planning",
+        "mobile-robots",
+        "behavior-trees"
+      ],
+      "text": "nav2 (navigation2) github robotics navigation path-planning mobile-robots behavior-trees behavior tree-based architecture and large plugin ecosystem add configuration complexity for new users ros2 behaviortree-cpp cpp"
+    },
+    {
+      "id": "GH-000012",
+      "name": "PX4 Autopilot",
+      "category": "robotics",
+      "tags": [
+        "autopilot",
+        "drone",
+        "uav",
+        "flight-controller"
+      ],
+      "text": "px4 autopilot github robotics autopilot drone uav flight-controller requires --recursive git clone due to submodules, easy to miss and causes build failures nuttx mavlink uorb cpp"
+    },
+    {
+      "id": "GH-000013",
+      "name": "ROS 2 (Robot Operating System 2)",
+      "category": "robotics",
+      "tags": [
+        "robot-operating-system",
+        "middleware",
+        "meta-operating-system",
+        "publish-subscribe"
+      ],
+      "text": "ros 2 (robot operating system 2) github robotics robot-operating-system middleware meta-operating-system publish-subscribe steep learning curve due to large number of interdependent packages and concepts (nodes, topics, services, actions, dds middleware) distribution-specific compatibility (rolling, jazzy, humble, etc.) can complicate dependency management dds-middleware cmake python cpp"
+    },
+    {
+      "id": "GH-000014",
+      "name": "RTAB-Map",
+      "category": "robotics",
+      "tags": [
+        "slam",
+        "loop-closure-detection",
+        "rgb-d",
+        "lidar"
+      ],
+      "text": "rtab-map github robotics slam loop-closure-detection rgb-d lidar libpointmatcher dependency (recommended for lidar use) is not available on 32-bit systems opencv pcl cpp"
     }
   ]
 }

@@ -19,5 +19,6 @@
     "machine-learning",
     "manipulation"
   ],
-  "source_notes": "Hugging Face library providing models, datasets, and tools for real-world robotics in PyTorch, with a hardware-agnostic Robot interface and standardized dataset format hosted on the Hugging Face Hub."
+  "source_notes": "Hugging Face library providing models, datasets, and tools for real-world robotics in PyTorch, with a hardware-agnostic Robot interface and standardized dataset format hosted on the Hugging Face Hub.",
+  "id": "GH-000008"
 }
