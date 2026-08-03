@@ -1,0 +1,25 @@
+{
+  "type": "github",
+  "name": "Bomberman 64: Recompiled",
+  "location": "https://github.com/RevoSucks/BM64Recomp",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "requires a legally dumped US N64 ROM of Bomberman 64, no game assets included",
+    "only Windows executable provided at initial release, other OS support planned",
+    "minor graphical clipping issue in credits screen"
+  ],
+  "depends_on": [
+    "n64recomp",
+    "rt64",
+    "directx-12-or-vulkan-1.2-or-metal"
+  ],
+  "tags": [
+    "static-recompilation",
+    "n64",
+    "game-port",
+    "reverse-engineering"
+  ],
+  "source_notes": "Uses N64: Recompiled to statically recompile the original N64 binary into a native PC port, using headers from the Bomberman 64 decompilation project."
+}

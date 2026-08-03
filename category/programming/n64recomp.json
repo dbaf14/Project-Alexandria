@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "N64: Recompiled (N64Recomp)",
+  "location": "https://github.com/N64Recomp/N64Recomp",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "requires a curated list of symbols and metadata alongside the binary to work"
+  ],
+  "depends_on": [
+    "c",
+    "cpp-compiler"
+  ],
+  "tags": [
+    "static-recompilation",
+    "n64",
+    "reverse-engineering",
+    "compiler-toolchain"
+  ],
+  "source_notes": "Tool to statically recompile N64 binaries into C code, usable for game ports (e.g. Zelda 64: Recompiled, Bomberman 64: Recompiled) or standalone simulation."
+}
