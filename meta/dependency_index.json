@@ -1,6 +1,9 @@
 {
-  "unique_dependencies": 51,
+  "unique_dependencies": 52,
   "dependencies": {
+    "C++": [
+      "GH-000028"
+    ],
     "Large Language Models": [
       "GH-000027"
     ],

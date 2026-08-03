@@ -1,11 +1,14 @@
 {
-  "unique_tags": 108,
+  "unique_tags": 111,
   "tags": {
     "3d-simulation": [
       "GH-000007"
     ],
     "acid": [
       "GH-000020"
+    ],
+    "ai": [
+      "GH-000028"
     ],
     "ai-agent": [
       "GH-000027"
@@ -66,6 +69,9 @@
     "containers": [
       "GH-000018"
     ],
+    "cpp": [
+      "GH-000028"
+    ],
     "deep-learning": [
       "GH-000024"
     ],
@@ -122,6 +128,9 @@
     "in-memory-database": [
       "GH-000022"
     ],
+    "inference": [
+      "GH-000028"
+    ],
     "javascript-runtime": [
       "GH-000019"
     ],
@@ -142,7 +151,8 @@
     ],
     "llm": [
       "GH-000025",
-      "GH-000027"
+      "GH-000027",
+      "GH-000028"
     ],
     "llm-inference": [
       "GH-000003"
@@ -154,7 +164,8 @@
       "GH-000003",
       "GH-000004",
       "GH-000008",
-      "GH-000024"
+      "GH-000024",
+      "GH-000028"
     ],
     "majorana-zero-modes": [
       "PAPER-000001",

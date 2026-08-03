@@ -1,5 +1,5 @@
 {
-  "count": 31,
+  "count": 32,
   "sources": [
     {
       "id": "GH-000003",
@@ -153,6 +153,15 @@
       "location": "https://github.com/OpenClaw/OpenClaw",
       "status": "active",
       "file": "category/programming/GH-000027.json"
+    },
+    {
+      "id": "GH-000028",
+      "type": "github",
+      "category": "programming",
+      "name": "ggerganov/llama.cpp",
+      "location": "https://github.com/ggerganov/llama.cpp",
+      "status": "active",
+      "file": "category/programming/GH-000028.json"
     },
     {
       "id": "PAPER-000001",

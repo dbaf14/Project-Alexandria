@@ -1,5 +1,5 @@
 {
-  "count": 31,
+  "count": 32,
   "entries": [
     {
       "id": "GH-000003",
@@ -207,6 +207,19 @@
         "open-source"
       ],
       "text": "openclaw github programming ai-agent automation llm coding open-source rapid development may introduce breaking changes. hardware requirements vary depending on configuration. python large language models"
+    },
+    {
+      "id": "GH-000028",
+      "name": "ggerganov/llama.cpp",
+      "category": "programming",
+      "tags": [
+        "llm",
+        "inference",
+        "cpp",
+        "ai",
+        "machine-learning"
+      ],
+      "text": "ggerganov/llama.cpp github programming llm inference cpp ai machine-learning model compatibility depends on supported formats. performance depends on available hardware acceleration. c++"
     },
     {
       "id": "PAPER-000001",
