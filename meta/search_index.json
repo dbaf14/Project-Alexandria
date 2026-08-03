@@ -1,5 +1,5 @@
 {
-  "count": 28,
+  "count": 29,
   "entries": [
     {
       "id": "GH-000003",
@@ -168,6 +168,19 @@
         "neural-networks"
       ],
       "text": "tensorflow github programming machine-learning deep-learning numerical-computation neural-networks large build system and long compile times from source api surface has changed significantly across major versions (1.x graph mode to 2.x eager execution) python cpp cuda-optional"
+    },
+    {
+      "id": "GH-000025",
+      "name": "microsoft/markitdown",
+      "category": "programming",
+      "tags": [
+        "markdown",
+        "document-conversion",
+        "llm",
+        "python",
+        "microsoft"
+      ],
+      "text": "microsoft/markitdown github programming markdown document-conversion llm python microsoft conversion quality depends on the source document format. some proprietary document features are not preserved. python"
     },
     {
       "id": "PAPER-000001",

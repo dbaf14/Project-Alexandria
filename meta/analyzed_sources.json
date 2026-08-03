@@ -1,5 +1,5 @@
 {
-  "count": 28,
+  "count": 29,
   "sources": [
     {
       "id": "GH-000003",
@@ -126,6 +126,15 @@
       "location": "https://github.com/tensorflow/tensorflow",
       "status": "active",
       "file": "category/programming/GH-000024.json"
+    },
+    {
+      "id": "GH-000025",
+      "type": "github",
+      "category": "programming",
+      "name": "microsoft/markitdown",
+      "location": "https://github.com/microsoft/markitdown",
+      "status": "active",
+      "file": "category/programming/GH-000025.json"
     },
     {
       "id": "PAPER-000001",

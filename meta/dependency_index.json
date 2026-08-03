@@ -1,6 +1,9 @@
 {
-  "unique_dependencies": 49,
+  "unique_dependencies": 50,
   "dependencies": {
+    "Python": [
+      "GH-000025"
+    ],
     "behaviortree-cpp": [
       "GH-000011"
     ],

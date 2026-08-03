@@ -1,5 +1,5 @@
 {
-  "unique_tags": 94,
+  "unique_tags": 99,
   "tags": {
     "3d-simulation": [
       "GH-000007"
@@ -64,6 +64,9 @@
     "distributed-systems": [
       "GH-000017"
     ],
+    "document-conversion": [
+      "GH-000025"
+    ],
     "drone": [
       "GH-000005",
       "GH-000012"
@@ -116,6 +119,9 @@
     "lidar": [
       "GH-000014"
     ],
+    "llm": [
+      "GH-000025"
+    ],
     "llm-inference": [
       "GH-000003"
     ],
@@ -137,6 +143,9 @@
       "GH-000008",
       "GH-000010"
     ],
+    "markdown": [
+      "GH-000025"
+    ],
     "matters-arising": [
       "PAPER-000002"
     ],
@@ -151,6 +160,9 @@
     ],
     "microcontrollers": [
       "GH-000009"
+    ],
+    "microsoft": [
+      "GH-000025"
     ],
     "middleware": [
       "GH-000013"
@@ -200,6 +212,9 @@
     ],
     "pybullet": [
       "GH-000006"
+    ],
+    "python": [
+      "GH-000025"
     ],
     "quantization": [
       "GH-000003"
