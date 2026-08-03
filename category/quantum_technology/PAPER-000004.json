@@ -19,5 +19,6 @@
     "superconducting-qubits",
     "fault-tolerance"
   ],
-  "source_notes": "Google Quantum AI, Nature (9 Dec 2024). First superconducting processor (Willow, 105 qubits) to show exponentially decreasing logical error rates as physical qubits scale up ('below threshold'), using a surface code with real-time decoding."
+  "source_notes": "Google Quantum AI, Nature (9 Dec 2024). First superconducting processor (Willow, 105 qubits) to show exponentially decreasing logical error rates as physical qubits scale up ('below threshold'), using a surface code with real-time decoding.",
+  "id": "PAPER-000004"
 }

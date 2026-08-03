@@ -1,5 +1,5 @@
 {
-  "count": 24,
+  "count": 28,
   "sources": [
     {
       "id": "GH-000003",
@@ -126,6 +126,42 @@
       "location": "https://github.com/tensorflow/tensorflow",
       "status": "active",
       "file": "category/programming/GH-000024.json"
+    },
+    {
+      "id": "PAPER-000001",
+      "type": "paper",
+      "category": "quantum_technology",
+      "name": "Data sharing helps avoid \"smoking gun\" claims of topological milestones",
+      "location": "https://doi.org/10.1126/science.adk9181",
+      "status": "active",
+      "file": "category/quantum_technology/PAPER-000001.json"
+    },
+    {
+      "id": "PAPER-000002",
+      "type": "paper",
+      "category": "quantum_technology",
+      "name": "On the robustness of topological gap detection via transport",
+      "location": "Nature 654, E22-E26 (2026)",
+      "status": "active",
+      "file": "category/quantum_technology/PAPER-000002.json"
+    },
+    {
+      "id": "PAPER-000003",
+      "type": "paper",
+      "category": "quantum_technology",
+      "name": "Interferometric single-shot parity measurement in InAs-Al hybrid devices",
+      "location": "https://doi.org/10.1038/s41586-024-08445-2",
+      "status": "active",
+      "file": "category/quantum_technology/PAPER-000003.json"
+    },
+    {
+      "id": "PAPER-000004",
+      "type": "paper",
+      "category": "quantum_technology",
+      "name": "Quantum error correction below the surface code threshold",
+      "location": "https://doi.org/10.1038/s41586-024-08449-y",
+      "status": "active",
+      "file": "category/quantum_technology/PAPER-000004.json"
     },
     {
       "id": "GH-000005",

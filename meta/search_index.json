@@ -1,5 +1,5 @@
 {
-  "count": 24,
+  "count": 28,
   "entries": [
     {
       "id": "GH-000003",
@@ -168,6 +168,54 @@
         "neural-networks"
       ],
       "text": "tensorflow github programming machine-learning deep-learning numerical-computation neural-networks large build system and long compile times from source api surface has changed significantly across major versions (1.x graph mode to 2.x eager execution) python cpp cuda-optional"
+    },
+    {
+      "id": "PAPER-000001",
+      "name": "Data sharing helps avoid \"smoking gun\" claims of topological milestones",
+      "category": "quantum_technology",
+      "tags": [
+        "topological-qubit",
+        "reproducibility",
+        "majorana-zero-modes",
+        "replication-study"
+      ],
+      "text": "data sharing helps avoid \"smoking gun\" claims of topological milestones paper quantum_technology topological-qubit reproducibility majorana-zero-modes replication-study underwent a two-year peer and editorial review process after submission in september 2023, partly attributed by the authors to journals treating replication studies as lacking novelty nanowire-devices shared-experimental-datasets"
+    },
+    {
+      "id": "PAPER-000002",
+      "name": "On the robustness of topological gap detection via transport",
+      "category": "quantum_technology",
+      "tags": [
+        "topological-qubit",
+        "majorana-zero-modes",
+        "peer-review",
+        "matters-arising"
+      ],
+      "text": "on the robustness of topological gap detection via transport paper quantum_technology topological-qubit majorana-zero-modes peer-review matters-arising identifies coding errors in the topological gap protocol (tgp) analysis code, including a hardcoded filter that displayed only the single largest favorable data region the challenged authors (microsoft azure quantum) published a rebuttal in the same nature issue disputing the significance of the identified issues topological-gap-protocol nature-638-651-655-2025"
+    },
+    {
+      "id": "PAPER-000003",
+      "name": "Interferometric single-shot parity measurement in InAs-Al hybrid devices",
+      "category": "quantum_technology",
+      "tags": [
+        "topological-qubit",
+        "majorana-zero-modes",
+        "quantum-computing",
+        "superconductor-semiconductor-hybrid"
+      ],
+      "text": "interferometric single-shot parity measurement in inas-al hybrid devices paper quantum_technology topological-qubit majorana-zero-modes quantum-computing superconductor-semiconductor-hybrid a formal 'matters arising' challenge was published in nature (24 june 2026) disputing the validity of the topological gap protocol used to support the paper's central claim the paper's editorial note states the results do not by themselves constitute evidence for majorana zero modes, only for the device architecture indium-arsenide-aluminum-heterostructure topological-gap-protocol superconducting-nanowire"
+    },
+    {
+      "id": "PAPER-000004",
+      "name": "Quantum error correction below the surface code threshold",
+      "category": "quantum_technology",
+      "tags": [
+        "quantum-error-correction",
+        "quantum-computing",
+        "superconducting-qubits",
+        "fault-tolerance"
+      ],
+      "text": "quantum error correction below the surface code threshold paper quantum_technology quantum-error-correction quantum-computing superconducting-qubits fault-tolerance correlated errors (e.g. from cosmic rays or two-level system defects) remain a limiting factor for reaching error rates needed for commercially relevant applications superconducting-qubits surface-code willow-chip"
     },
     {
       "id": "GH-000005",

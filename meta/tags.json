@@ -1,5 +1,5 @@
 {
-  "unique_tags": 83,
+  "unique_tags": 94,
   "tags": {
     "3d-simulation": [
       "GH-000007"
@@ -80,6 +80,9 @@
     "extensible": [
       "GH-000020"
     ],
+    "fault-tolerance": [
+      "PAPER-000004"
+    ],
     "flight-controller": [
       "GH-000012"
     ],
@@ -125,9 +128,17 @@
       "GH-000008",
       "GH-000024"
     ],
+    "majorana-zero-modes": [
+      "PAPER-000001",
+      "PAPER-000002",
+      "PAPER-000003"
+    ],
     "manipulation": [
       "GH-000008",
       "GH-000010"
+    ],
+    "matters-arising": [
+      "PAPER-000002"
     ],
     "memory-safety": [
       "GH-000023"
@@ -175,6 +186,9 @@
     "path-planning": [
       "GH-000011"
     ],
+    "peer-review": [
+      "PAPER-000002"
+    ],
     "physics-engine": [
       "GH-000006"
     ],
@@ -190,11 +204,24 @@
     "quantization": [
       "GH-000003"
     ],
+    "quantum-computing": [
+      "PAPER-000003",
+      "PAPER-000004"
+    ],
+    "quantum-error-correction": [
+      "PAPER-000004"
+    ],
     "real-time": [
       "GH-000009"
     ],
     "relational-database": [
       "GH-000020"
+    ],
+    "replication-study": [
+      "PAPER-000001"
+    ],
+    "reproducibility": [
+      "PAPER-000001"
     ],
     "reverse-engineering": [
       "GH-000001",
@@ -234,11 +261,22 @@
       "GH-000001",
       "GH-000002"
     ],
+    "superconducting-qubits": [
+      "PAPER-000004"
+    ],
+    "superconductor-semiconductor-hybrid": [
+      "PAPER-000003"
+    ],
     "systems-programming": [
       "GH-000023"
     ],
     "text-to-image": [
       "GH-000004"
+    ],
+    "topological-qubit": [
+      "PAPER-000001",
+      "PAPER-000002",
+      "PAPER-000003"
     ],
     "type-hints": [
       "GH-000016"

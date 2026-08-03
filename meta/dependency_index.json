@@ -1,5 +1,5 @@
 {
-  "unique_dependencies": 40,
+  "unique_dependencies": 49,
   "dependencies": {
     "behaviortree-cpp": [
       "GH-000011"
@@ -66,6 +66,9 @@
     "huggingface-hub": [
       "GH-000008"
     ],
+    "indium-arsenide-aluminum-heterostructure": [
+      "PAPER-000003"
+    ],
     "javascript": [
       "GH-000021"
     ],
@@ -90,6 +93,12 @@
     ],
     "n64recomp": [
       "GH-000001"
+    ],
+    "nanowire-devices": [
+      "PAPER-000001"
+    ],
+    "nature-638-651-655-2025": [
+      "PAPER-000002"
     ],
     "nuttx": [
       "GH-000012"
@@ -135,14 +144,33 @@
     "sdformat": [
       "GH-000007"
     ],
+    "shared-experimental-datasets": [
+      "PAPER-000001"
+    ],
     "starlette": [
       "GH-000016"
+    ],
+    "superconducting-nanowire": [
+      "PAPER-000003"
+    ],
+    "superconducting-qubits": [
+      "PAPER-000004"
+    ],
+    "surface-code": [
+      "PAPER-000004"
+    ],
+    "topological-gap-protocol": [
+      "PAPER-000002",
+      "PAPER-000003"
     ],
     "uorb": [
       "GH-000012"
     ],
     "v8": [
       "GH-000019"
+    ],
+    "willow-chip": [
+      "PAPER-000004"
     ]
   }
 }

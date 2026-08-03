@@ -20,5 +20,6 @@
     "quantum-computing",
     "superconductor-semiconductor-hybrid"
   ],
-  "source_notes": "Microsoft Azure Quantum et al., Nature 638, 651-655 (2025). Underpins the 'Majorana 1' chip announcement. Single-shot interferometric parity measurement in InAs-Al devices, 1% error rate. Subject of an ongoing dispute (see related Legg entry)."
+  "source_notes": "Microsoft Azure Quantum et al., Nature 638, 651-655 (2025). Underpins the 'Majorana 1' chip announcement. Single-shot interferometric parity measurement in InAs-Al devices, 1% error rate. Subject of an ongoing dispute (see related Legg entry).",
+  "id": "PAPER-000003"
 }

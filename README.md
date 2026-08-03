@@ -6,9 +6,10 @@
 
 _Automatically updated after each pipeline run (`scripts/update_readme.py`) — do not edit this section by hand._
 
-**Currently 24 analyzed entries available in 3 categories.**
+**Currently 28 analyzed entries available in 4 categories.**
 
 - 24 from GitHub
+- 4 from science papers
 <!-- OVERVIEW:END -->
 
 ## Project Description

@@ -18,6 +18,12 @@
       "GH-000023",
       "GH-000024"
     ],
+    "quantum_technology": [
+      "PAPER-000001",
+      "PAPER-000002",
+      "PAPER-000003",
+      "PAPER-000004"
+    ],
     "robotics": [
       "GH-000005",
       "GH-000006",
