@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 47,
   "entries": [
     {
       "id": "GH-000003",
@@ -106,6 +106,90 @@
         "no-hidden-control-flow"
       ],
       "text": "zig github computer_science systems-programming compiler compile-time-execution no-hidden-control-flow language and standard library are pre-1.0 and still subject to breaking changes between releases llvm"
+    },
+    {
+      "id": "GH-000037",
+      "name": "FEniCSx (DOLFINx)",
+      "category": "engineering",
+      "tags": [
+        "finite-element-method",
+        "partial-differential-equations",
+        "numerical-simulation",
+        "high-performance-computing"
+      ],
+      "text": "fenicsx (dolfinx) github engineering finite-element-method partial-differential-equations numerical-simulation high-performance-computing requires familiarity with variational/weak-form mathematical formulations of pdes, which is a steep prerequisite for engineers without a numerical methods background cpp python mpi petsc"
+    },
+    {
+      "id": "GH-000038",
+      "name": "Elmer FEM",
+      "category": "engineering",
+      "tags": [
+        "finite-element-method",
+        "multiphysics-simulation",
+        "structural-analysis",
+        "heat-transfer"
+      ],
+      "text": "elmer fem github engineering finite-element-method multiphysics-simulation structural-analysis heat-transfer documentation is less extensive than some commercial fea alternatives, and community support is smaller relative to project scope fortran cpp mpi"
+    },
+    {
+      "id": "GH-000039",
+      "name": "FreeCAD",
+      "category": "engineering",
+      "tags": [
+        "cad",
+        "parametric-modeling",
+        "mechanical-engineering",
+        "3d-modeling"
+      ],
+      "text": "freecad github engineering cad parametric-modeling mechanical-engineering 3d-modeling third-party addon ecosystem (workbenches, macros) varies widely in maintenance quality and version compatibility opencascade python qt coin3d"
+    },
+    {
+      "id": "GH-000040",
+      "name": "OpenFOAM",
+      "category": "engineering",
+      "tags": [
+        "computational-fluid-dynamics",
+        "cfd",
+        "finite-volume-method",
+        "simulation"
+      ],
+      "text": "openfoam github engineering computational-fluid-dynamics cfd finite-volume-method simulation ecosystem is split between two parallel distributions (openfoam foundation and opencfd/esi-opencfd), with occasional divergence in features and case-file compatibility cpp mpi"
+    },
+    {
+      "id": "GH-000041",
+      "name": "OpenSCAD",
+      "category": "engineering",
+      "tags": [
+        "cad",
+        "programmatic-modeling",
+        "3d-printing",
+        "constructive-solid-geometry"
+      ],
+      "text": "openscad github engineering cad programmatic-modeling 3d-printing constructive-solid-geometry script-based, code-only modeling approach (no direct mouse-based mesh editing) has a learning curve for users coming from conventional cad tools cpp cgal qt"
+    },
+    {
+      "id": "GH-000042",
+      "name": "QGIS",
+      "category": "engineering",
+      "tags": [
+        "gis",
+        "geospatial",
+        "cartography",
+        "remote-sensing"
+      ],
+      "text": "qgis github engineering gis geospatial cartography remote-sensing plugin ecosystem quality and compatibility across major versions varies, similar to other extensible desktop applications cpp qt gdal python"
+    },
+    {
+      "id": "SRC-000001",
+      "name": "KiCad",
+      "category": "engineering",
+      "tags": [
+        "eda",
+        "pcb-design",
+        "electronics",
+        "schematic-capture"
+      ],
+      "text": "kicad other engineering eda pcb-design electronics schematic-capture canonical repository is hosted on gitlab, not github, which occasionally causes confusion given how many mirrors and forks exist elsewhere cpp wxwidgets opencascade"
     },
     {
       "id": "GH-000001",

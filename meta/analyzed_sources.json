@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 47,
   "sources": [
     {
       "id": "GH-000003",
@@ -81,6 +81,69 @@
       "location": "https://github.com/ziglang/zig",
       "status": "active",
       "file": "category/computer_science/GH-000036.json"
+    },
+    {
+      "id": "GH-000037",
+      "type": "github",
+      "category": "engineering",
+      "name": "FEniCSx (DOLFINx)",
+      "location": "https://github.com/FEniCS/dolfinx",
+      "status": "active",
+      "file": "category/engineering/GH-000037.json"
+    },
+    {
+      "id": "GH-000038",
+      "type": "github",
+      "category": "engineering",
+      "name": "Elmer FEM",
+      "location": "https://github.com/ElmerCSC/elmerfem",
+      "status": "active",
+      "file": "category/engineering/GH-000038.json"
+    },
+    {
+      "id": "GH-000039",
+      "type": "github",
+      "category": "engineering",
+      "name": "FreeCAD",
+      "location": "https://github.com/FreeCAD/FreeCAD",
+      "status": "active",
+      "file": "category/engineering/GH-000039.json"
+    },
+    {
+      "id": "GH-000040",
+      "type": "github",
+      "category": "engineering",
+      "name": "OpenFOAM",
+      "location": "https://github.com/OpenFOAM/OpenFOAM-dev",
+      "status": "active",
+      "file": "category/engineering/GH-000040.json"
+    },
+    {
+      "id": "GH-000041",
+      "type": "github",
+      "category": "engineering",
+      "name": "OpenSCAD",
+      "location": "https://github.com/openscad/openscad",
+      "status": "active",
+      "file": "category/engineering/GH-000041.json"
+    },
+    {
+      "id": "GH-000042",
+      "type": "github",
+      "category": "engineering",
+      "name": "QGIS",
+      "location": "https://github.com/qgis/QGIS",
+      "status": "active",
+      "file": "category/engineering/GH-000042.json"
+    },
+    {
+      "id": "SRC-000001",
+      "type": "other",
+      "category": "engineering",
+      "name": "KiCad",
+      "location": "https://gitlab.com/kicad/code/kicad",
+      "status": "active",
+      "file": "category/engineering/SRC-000001.json"
     },
     {
       "id": "GH-000001",

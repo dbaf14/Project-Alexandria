@@ -1,6 +1,12 @@
 {
-  "unique_tags": 135,
+  "unique_tags": 161,
   "tags": {
+    "3d-modeling": [
+      "GH-000039"
+    ],
+    "3d-printing": [
+      "GH-000041"
+    ],
     "3d-simulation": [
       "GH-000007"
     ],
@@ -39,6 +45,16 @@
     "cache": [
       "GH-000022"
     ],
+    "cad": [
+      "GH-000039",
+      "GH-000041"
+    ],
+    "cartography": [
+      "GH-000042"
+    ],
+    "cfd": [
+      "GH-000040"
+    ],
     "clang": [
       "GH-000034"
     ],
@@ -67,11 +83,17 @@
     "component-based": [
       "GH-000021"
     ],
+    "computational-fluid-dynamics": [
+      "GH-000040"
+    ],
     "computer-science": [
       "GH-000026"
     ],
     "concurrency": [
       "GH-000023"
+    ],
+    "constructive-solid-geometry": [
+      "GH-000041"
     ],
     "container-orchestration": [
       "GH-000017"
@@ -107,11 +129,17 @@
       "GH-000005",
       "GH-000012"
     ],
+    "eda": [
+      "SRC-000001"
+    ],
     "edge-computing": [
       "GH-000003"
     ],
     "education": [
       "GH-000026"
+    ],
+    "electronics": [
+      "SRC-000001"
     ],
     "embedded": [
       "GH-000009"
@@ -128,6 +156,13 @@
     "fault-tolerance": [
       "PAPER-000004"
     ],
+    "finite-element-method": [
+      "GH-000037",
+      "GH-000038"
+    ],
+    "finite-volume-method": [
+      "GH-000040"
+    ],
     "flight-controller": [
       "GH-000012"
     ],
@@ -143,11 +178,23 @@
     "generative-ai": [
       "GH-000004"
     ],
+    "geospatial": [
+      "GH-000042"
+    ],
+    "gis": [
+      "GH-000042"
+    ],
     "github": [
       "GH-000026"
     ],
     "gpu": [
       "GH-000029"
+    ],
+    "heat-transfer": [
+      "GH-000038"
+    ],
+    "high-performance-computing": [
+      "GH-000037"
     ],
     "imitation-learning": [
       "GH-000008"
@@ -217,6 +264,9 @@
     "matters-arising": [
       "PAPER-000002"
     ],
+    "mechanical-engineering": [
+      "GH-000039"
+    ],
     "memory-safety": [
       "GH-000023"
     ],
@@ -242,6 +292,9 @@
     "motion-planning": [
       "GH-000010"
     ],
+    "multiphysics-simulation": [
+      "GH-000038"
+    ],
     "mvc": [
       "GH-000015"
     ],
@@ -264,14 +317,26 @@
     "numerical-computation": [
       "GH-000024"
     ],
+    "numerical-simulation": [
+      "GH-000037"
+    ],
     "open-source": [
       "GH-000027"
     ],
     "orm": [
       "GH-000015"
     ],
+    "parametric-modeling": [
+      "GH-000039"
+    ],
+    "partial-differential-equations": [
+      "GH-000037"
+    ],
     "path-planning": [
       "GH-000011"
+    ],
+    "pcb-design": [
+      "SRC-000001"
     ],
     "peer-review": [
       "PAPER-000002"
@@ -281,6 +346,9 @@
     ],
     "physics-simulation": [
       "GH-000007"
+    ],
+    "programmatic-modeling": [
+      "GH-000041"
     ],
     "programming": [
       "GH-000026"
@@ -322,6 +390,9 @@
     "relational-database": [
       "GH-000020"
     ],
+    "remote-sensing": [
+      "GH-000042"
+    ],
     "replication-study": [
       "PAPER-000001"
     ],
@@ -359,6 +430,9 @@
     "sandboxing": [
       "GH-000035"
     ],
+    "schematic-capture": [
+      "SRC-000001"
+    ],
     "search-engine": [
       "GH-000031"
     ],
@@ -367,6 +441,9 @@
     ],
     "serving": [
       "GH-000029"
+    ],
+    "simulation": [
+      "GH-000040"
     ],
     "slam": [
       "GH-000014"
@@ -380,6 +457,9 @@
     "static-recompilation": [
       "GH-000001",
       "GH-000002"
+    ],
+    "structural-analysis": [
+      "GH-000038"
     ],
     "superconducting-qubits": [
       "PAPER-000004"

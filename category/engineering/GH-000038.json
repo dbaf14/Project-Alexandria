@@ -19,5 +19,6 @@
     "structural-analysis",
     "heat-transfer"
   ],
-  "source_notes": "Open-source multiphysics finite element software originally developed by CSC - IT Center for Science (Finland), covering structural mechanics, fluid dynamics, heat transfer, and electromagnetics. GPL-licensed (exact component-level SPDX identifiers vary)."
+  "source_notes": "Open-source multiphysics finite element software originally developed by CSC - IT Center for Science (Finland), covering structural mechanics, fluid dynamics, heat transfer, and electromagnetics. GPL-licensed (exact component-level SPDX identifiers vary).",
+  "id": "GH-000038"
 }

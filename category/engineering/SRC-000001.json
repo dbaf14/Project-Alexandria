@@ -19,5 +19,6 @@
     "electronics",
     "schematic-capture"
   ],
-  "source_notes": "Electronic design automation (EDA) suite for schematic capture and PCB layout. Source code licensed under GPLv3-or-later; libraries under CC-BY-SA 4.0. Backed by KiCad Services Corp and a large open community."
+  "source_notes": "Electronic design automation (EDA) suite for schematic capture and PCB layout. Source code licensed under GPLv3-or-later; libraries under CC-BY-SA 4.0. Backed by KiCad Services Corp and a large open community.",
+  "id": "SRC-000001"
 }

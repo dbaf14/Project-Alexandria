@@ -19,5 +19,6 @@
     "3d-printing",
     "constructive-solid-geometry"
   ],
-  "source_notes": "Script-based 3D CAD modeler where objects are described via a dedicated description language (constructive solid geometry approach) rather than interactively drawn. Popular for parametric 3D-printable designs. Licensed under GPLv2-or-later."
+  "source_notes": "Script-based 3D CAD modeler where objects are described via a dedicated description language (constructive solid geometry approach) rather than interactively drawn. Popular for parametric 3D-printable designs. Licensed under GPLv2-or-later.",
+  "id": "GH-000041"
 }

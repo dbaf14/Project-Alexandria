@@ -20,5 +20,6 @@
     "mechanical-engineering",
     "3d-modeling"
   ],
-  "source_notes": "General-purpose, feature-based parametric 3D CAD modeler aimed at mechanical engineering, product design, and architecture. Built on the OpenCasCade geometry kernel. Licensed under LGPL-2.1-or-later."
+  "source_notes": "General-purpose, feature-based parametric 3D CAD modeler aimed at mechanical engineering, product design, and architecture. Built on the OpenCasCade geometry kernel. Licensed under LGPL-2.1-or-later.",
+  "id": "GH-000039"
 }

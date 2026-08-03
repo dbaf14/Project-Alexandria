@@ -18,5 +18,6 @@
     "finite-volume-method",
     "simulation"
   ],
-  "source_notes": "Open-source C++ toolbox for computational fluid dynamics (CFD), covering fluid flow, heat transfer, and related continuum mechanics problems using the finite volume method. Licensed under GPLv3."
+  "source_notes": "Open-source C++ toolbox for computational fluid dynamics (CFD), covering fluid flow, heat transfer, and related continuum mechanics problems using the finite volume method. Licensed under GPLv3.",
+  "id": "GH-000040"
 }

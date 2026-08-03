@@ -20,5 +20,6 @@
     "numerical-simulation",
     "high-performance-computing"
   ],
-  "source_notes": "Next-generation computational component of the FEniCS Project, a finite element method (FEM) library for automated solution of partial differential equations, used across structural, fluid, and multiphysics engineering simulation. Licensed under LGPLv3-or-later."
+  "source_notes": "Next-generation computational component of the FEniCS Project, a finite element method (FEM) library for automated solution of partial differential equations, used across structural, fluid, and multiphysics engineering simulation. Licensed under LGPLv3-or-later.",
+  "id": "GH-000037"
 }
