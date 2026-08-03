@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "OpenClaw",
+  "location": "https://github.com/OpenClaw/OpenClaw",
+  "status": "active",
+  "works": "unknown",
+  "development": "ongoing",
+  "problems": [
+    "Rapid development may introduce breaking changes.",
+    "Hardware requirements vary depending on configuration."
+  ],
+  "depends_on": [
+    "Python",
+    "Large Language Models"
+  ],
+  "tags": [
+    "ai-agent",
+    "automation",
+    "llm",
+    "coding",
+    "open-source"
+  ],
+  "source_notes": "Open-source AI agent project."
+}
