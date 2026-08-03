@@ -1,6 +1,16 @@
 # Project Alexandria
 ### An Open Knowledge Discovery Infrastructure
 
+<!-- OVERVIEW:START -->
+## Overview
+
+_Automatically updated after each pipeline run (`scripts/update_readme.py`) — do not edit this section by hand._
+
+**Currently 0 analyzed entries available in 0 categories.**
+
+_No entries yet. Be the first to add one — see [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)._
+<!-- OVERVIEW:END -->
+
 ## Project Description
 
 Project Alexandria is an open, machine-readable knowledge platform whose goal is to collect scientific findings, technical developments, open-source projects, research papers, and humanity's unsolved problems in a structured way.
