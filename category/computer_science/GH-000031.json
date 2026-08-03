@@ -18,5 +18,6 @@
     "distributed-systems",
     "analytics"
   ],
-  "source_notes": "Distributed search and analytics engine built on Apache Lucene, maintained by Elastic. Since 2024 dual/tri-licensed under SSPL 1.0, Elastic License 2.0, and AGPLv3 (client libraries remain Apache 2.0)."
+  "source_notes": "Distributed search and analytics engine built on Apache Lucene, maintained by Elastic. Since 2024 dual/tri-licensed under SSPL 1.0, Elastic License 2.0, and AGPLv3 (client libraries remain Apache 2.0).",
+  "id": "GH-000031"
 }

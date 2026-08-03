@@ -1,5 +1,5 @@
 {
-  "count": 33,
+  "count": 40,
   "sources": [
     {
       "id": "GH-000003",
@@ -18,6 +18,69 @@
       "location": "https://github.com/CompVis/stable-diffusion",
       "status": "unknown",
       "file": "category/computer_science/GH-000004.json"
+    },
+    {
+      "id": "GH-000030",
+      "type": "github",
+      "category": "computer_science",
+      "name": "CPython",
+      "location": "https://github.com/python/cpython",
+      "status": "active",
+      "file": "category/computer_science/GH-000030.json"
+    },
+    {
+      "id": "GH-000031",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Elasticsearch",
+      "location": "https://github.com/elastic/elasticsearch",
+      "status": "active",
+      "file": "category/computer_science/GH-000031.json"
+    },
+    {
+      "id": "GH-000032",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Git",
+      "location": "https://github.com/git/git",
+      "status": "active",
+      "file": "category/computer_science/GH-000032.json"
+    },
+    {
+      "id": "GH-000033",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Apache Kafka",
+      "location": "https://github.com/apache/kafka",
+      "status": "active",
+      "file": "category/computer_science/GH-000033.json"
+    },
+    {
+      "id": "GH-000034",
+      "type": "github",
+      "category": "computer_science",
+      "name": "LLVM Project",
+      "location": "https://github.com/llvm/llvm-project",
+      "status": "active",
+      "file": "category/computer_science/GH-000034.json"
+    },
+    {
+      "id": "GH-000035",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Wasmtime",
+      "location": "https://github.com/bytecodealliance/wasmtime",
+      "status": "active",
+      "file": "category/computer_science/GH-000035.json"
+    },
+    {
+      "id": "GH-000036",
+      "type": "github",
+      "category": "computer_science",
+      "name": "Zig",
+      "location": "https://github.com/ziglang/zig",
+      "status": "active",
+      "file": "category/computer_science/GH-000036.json"
     },
     {
       "id": "GH-000001",

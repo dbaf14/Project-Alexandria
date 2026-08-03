@@ -1,5 +1,5 @@
 {
-  "unique_dependencies": 53,
+  "unique_dependencies": 60,
   "dependencies": {
     "C++": [
       "GH-000028"
@@ -22,13 +22,16 @@
       "GH-000002",
       "GH-000003",
       "GH-000020",
-      "GH-000022"
+      "GH-000022",
+      "GH-000030",
+      "GH-000032"
     ],
     "clip": [
       "GH-000004"
     ],
     "cmake": [
-      "GH-000013"
+      "GH-000013",
+      "GH-000034"
     ],
     "container-runtime": [
       "GH-000017"
@@ -44,7 +47,8 @@
       "GH-000013",
       "GH-000014",
       "GH-000019",
-      "GH-000024"
+      "GH-000024",
+      "GH-000034"
     ],
     "cpp-compiler": [
       "GH-000002"
@@ -83,6 +87,10 @@
     "indium-arsenide-aluminum-heterostructure": [
       "PAPER-000003"
     ],
+    "java": [
+      "GH-000031",
+      "GH-000033"
+    ],
     "javascript": [
       "GH-000021"
     ],
@@ -99,7 +107,11 @@
       "GH-000018"
     ],
     "llvm": [
-      "GH-000023"
+      "GH-000023",
+      "GH-000036"
+    ],
+    "lucene": [
+      "GH-000031"
     ],
     "mavlink": [
       "GH-000005",
@@ -155,6 +167,12 @@
     "rt64": [
       "GH-000001"
     ],
+    "rust": [
+      "GH-000035"
+    ],
+    "scala": [
+      "GH-000033"
+    ],
     "sdformat": [
       "GH-000007"
     ],
@@ -183,8 +201,17 @@
     "v8": [
       "GH-000019"
     ],
+    "wasi": [
+      "GH-000035"
+    ],
+    "webassembly": [
+      "GH-000035"
+    ],
     "willow-chip": [
       "PAPER-000004"
+    ],
+    "zookeeper-or-kraft": [
+      "GH-000033"
     ]
   }
 }

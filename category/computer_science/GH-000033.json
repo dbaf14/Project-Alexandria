@@ -19,5 +19,6 @@
     "distributed-systems",
     "pub-sub"
   ],
-  "source_notes": "Distributed event streaming platform, originally developed at LinkedIn, now an Apache Software Foundation project. Used for high-throughput data pipelines and stream processing. Licensed under Apache License 2.0."
+  "source_notes": "Distributed event streaming platform, originally developed at LinkedIn, now an Apache Software Foundation project. Used for high-throughput data pipelines and stream processing. Licensed under Apache License 2.0.",
+  "id": "GH-000033"
 }

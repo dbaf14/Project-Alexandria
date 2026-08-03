@@ -18,5 +18,6 @@
     "intermediate-representation",
     "clang"
   ],
-  "source_notes": "Collection of modular, reusable compiler and toolchain technologies (LLVM core, Clang C/C++ frontend, LLD linker, libc++). Originated at UIUC in 2000. Licensed under Apache License 2.0 with LLVM Exceptions."
+  "source_notes": "Collection of modular, reusable compiler and toolchain technologies (LLVM core, Clang C/C++ frontend, LLD linker, libc++). Originated at UIUC in 2000. Licensed under Apache License 2.0 with LLVM Exceptions.",
+  "id": "GH-000034"
 }

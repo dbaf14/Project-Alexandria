@@ -19,5 +19,6 @@
     "sandboxing",
     "wasi"
   ],
-  "source_notes": "Standalone WebAssembly and WASI runtime, developed under the Bytecode Alliance. Focused on correctness, security (sandboxing), and speed for running Wasm outside the browser. Licensed under Apache License 2.0 with LLVM Exception."
+  "source_notes": "Standalone WebAssembly and WASI runtime, developed under the Bytecode Alliance. Focused on correctness, security (sandboxing), and speed for running Wasm outside the browser. Licensed under Apache License 2.0 with LLVM Exception.",
+  "id": "GH-000035"
 }

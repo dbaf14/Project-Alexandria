@@ -1,5 +1,5 @@
 {
-  "count": 33,
+  "count": 40,
   "entries": [
     {
       "id": "GH-000003",
@@ -24,6 +24,88 @@
         "generative-ai"
       ],
       "text": "stable diffusion (compvis) github computer_science machine-learning text-to-image latent-diffusion generative-ai requires gpu with at least 10gb vram for original checkpoints official stability-ai fork (stablediffusion) repository has been unavailable/private since 2025, breaking downstream tools that clone it directly pytorch cuda clip laion-5b-subset"
+    },
+    {
+      "id": "GH-000030",
+      "name": "CPython",
+      "category": "computer_science",
+      "tags": [
+        "programming-language",
+        "interpreter",
+        "reference-implementation"
+      ],
+      "text": "cpython github computer_science programming-language interpreter reference-implementation the global interpreter lock (gil) has historically limited true multi-threaded parallelism; a no-gil build variant is in active, separate development c"
+    },
+    {
+      "id": "GH-000031",
+      "name": "Elasticsearch",
+      "category": "computer_science",
+      "tags": [
+        "search-engine",
+        "full-text-search",
+        "distributed-systems",
+        "analytics"
+      ],
+      "text": "elasticsearch github computer_science search-engine full-text-search distributed-systems analytics license changed from permissive apache 2.0 (through 7.10) to source-available sspl/elastic license 2.0 (2021), prompting an aws-led fork (opensearch); agplv3 was added as a third, osi-approved option in september 2024 java lucene"
+    },
+    {
+      "id": "GH-000032",
+      "name": "Git",
+      "category": "computer_science",
+      "tags": [
+        "version-control",
+        "distributed-vcs",
+        "source-code-management"
+      ],
+      "text": "git github computer_science version-control distributed-vcs source-code-management the mirror on github is a read-only mirror; the canonical development happens on the git mailing list and git.kernel.org, which can confuse contributors used to github-native workflows c"
+    },
+    {
+      "id": "GH-000033",
+      "name": "Apache Kafka",
+      "category": "computer_science",
+      "tags": [
+        "event-streaming",
+        "message-broker",
+        "distributed-systems",
+        "pub-sub"
+      ],
+      "text": "apache kafka github computer_science event-streaming message-broker distributed-systems pub-sub operating a self-managed cluster requires careful capacity planning around partitions, replication, and broker sizing java scala zookeeper-or-kraft"
+    },
+    {
+      "id": "GH-000034",
+      "name": "LLVM Project",
+      "category": "computer_science",
+      "tags": [
+        "compiler-infrastructure",
+        "toolchain",
+        "intermediate-representation",
+        "clang"
+      ],
+      "text": "llvm project github computer_science compiler-infrastructure toolchain intermediate-representation clang large monorepo (llvm core, clang, lld, libc++, and more combined) leads to long build times from source cpp cmake"
+    },
+    {
+      "id": "GH-000035",
+      "name": "Wasmtime",
+      "category": "computer_science",
+      "tags": [
+        "webassembly",
+        "runtime",
+        "sandboxing",
+        "wasi"
+      ],
+      "text": "wasmtime github computer_science webassembly runtime sandboxing wasi wasi (webassembly system interface) support spans multiple evolving proposal versions (preview1, preview2), which can require applications to track which wasi version a given host or guest targets rust webassembly wasi"
+    },
+    {
+      "id": "GH-000036",
+      "name": "Zig",
+      "category": "computer_science",
+      "tags": [
+        "systems-programming",
+        "compiler",
+        "compile-time-execution",
+        "no-hidden-control-flow"
+      ],
+      "text": "zig github computer_science systems-programming compiler compile-time-execution no-hidden-control-flow language and standard library are pre-1.0 and still subject to breaking changes between releases llvm"
     },
     {
       "id": "GH-000001",

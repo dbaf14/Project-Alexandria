@@ -16,5 +16,6 @@
     "interpreter",
     "reference-implementation"
   ],
-  "source_notes": "Reference implementation of the Python programming language, written primarily in C. Maintained by the Python Software Foundation. Licensed under the PSF License Agreement."
+  "source_notes": "Reference implementation of the Python programming language, written primarily in C. Maintained by the Python Software Foundation. Licensed under the PSF License Agreement.",
+  "id": "GH-000030"
 }

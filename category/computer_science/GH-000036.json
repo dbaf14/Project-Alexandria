@@ -17,5 +17,6 @@
     "compile-time-execution",
     "no-hidden-control-flow"
   ],
-  "source_notes": "General-purpose systems programming language and toolchain positioned as an alternative to C, emphasizing simplicity, manual memory management, and compile-time code execution (comptime). Licensed under MIT."
+  "source_notes": "General-purpose systems programming language and toolchain positioned as an alternative to C, emphasizing simplicity, manual memory management, and compile-time code execution (comptime). Licensed under MIT.",
+  "id": "GH-000036"
 }
