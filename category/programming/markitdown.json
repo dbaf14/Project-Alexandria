@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "microsoft/markitdown",
+  "location": "https://github.com/microsoft/markitdown",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "Conversion quality depends on the source document format.",
+    "Some proprietary document features are not preserved."
+  ],
+  "depends_on": [
+    "Python"
+  ],
+  "tags": [
+    "markdown",
+    "document-conversion",
+    "llm",
+    "python",
+    "microsoft"
+  ],
+  "source_notes": "Open-source document conversion tool maintained on GitHub."
+}
