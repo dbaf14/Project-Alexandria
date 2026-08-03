@@ -1,8 +1,12 @@
 {
-  "unique_dependencies": 50,
+  "unique_dependencies": 51,
   "dependencies": {
+    "Large Language Models": [
+      "GH-000027"
+    ],
     "Python": [
-      "GH-000025"
+      "GH-000025",
+      "GH-000027"
     ],
     "behaviortree-cpp": [
       "GH-000011"

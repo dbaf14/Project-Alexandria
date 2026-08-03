@@ -1,6 +1,6 @@
 {
   "generated_from": "scripts/detect_duplicates.py",
-  "total_entries_checked": 30,
+  "total_entries_checked": 31,
   "potential_duplicates_found": 0,
   "note": "Automatically generated. No evaluation, hint only (Rule 2).",
   "duplicates": []

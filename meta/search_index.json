@@ -1,5 +1,5 @@
 {
-  "count": 30,
+  "count": 31,
   "entries": [
     {
       "id": "GH-000003",
@@ -194,6 +194,19 @@
         "github"
       ],
       "text": "codecrafters-io/build-your-own-x github programming education programming computer-science learning github coverage depends on community contributions. external learning resources may become unavailable."
+    },
+    {
+      "id": "GH-000027",
+      "name": "OpenClaw",
+      "category": "programming",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "llm",
+        "coding",
+        "open-source"
+      ],
+      "text": "openclaw github programming ai-agent automation llm coding open-source rapid development may introduce breaking changes. hardware requirements vary depending on configuration. python large language models"
     },
     {
       "id": "PAPER-000001",

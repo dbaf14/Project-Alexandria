@@ -1,5 +1,5 @@
 {
-  "unique_tags": 104,
+  "unique_tags": 108,
   "tags": {
     "3d-simulation": [
       "GH-000007"
@@ -7,11 +7,17 @@
     "acid": [
       "GH-000020"
     ],
+    "ai-agent": [
+      "GH-000027"
+    ],
     "api": [
       "GH-000016"
     ],
     "asynchronous": [
       "GH-000016"
+    ],
+    "automation": [
+      "GH-000027"
     ],
     "autopilot": [
       "GH-000005",
@@ -29,6 +35,9 @@
     ],
     "cloud-native": [
       "GH-000017"
+    ],
+    "coding": [
+      "GH-000027"
     ],
     "collision-detection": [
       "GH-000006"
@@ -132,7 +141,8 @@
       "GH-000014"
     ],
     "llm": [
-      "GH-000025"
+      "GH-000025",
+      "GH-000027"
     ],
     "llm-inference": [
       "GH-000003"
@@ -203,6 +213,9 @@
     ],
     "numerical-computation": [
       "GH-000024"
+    ],
+    "open-source": [
+      "GH-000027"
     ],
     "orm": [
       "GH-000015"

@@ -1,5 +1,5 @@
 {
-  "count": 30,
+  "count": 31,
   "sources": [
     {
       "id": "GH-000003",
@@ -144,6 +144,15 @@
       "location": "https://github.com/codecrafters-io/build-your-own-x",
       "status": "active",
       "file": "category/programming/GH-000026.json"
+    },
+    {
+      "id": "GH-000027",
+      "type": "github",
+      "category": "programming",
+      "name": "OpenClaw",
+      "location": "https://github.com/OpenClaw/OpenClaw",
+      "status": "active",
+      "file": "category/programming/GH-000027.json"
     },
     {
       "id": "PAPER-000001",
