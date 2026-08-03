@@ -17,5 +17,6 @@
     "orm",
     "mvc"
   ],
-  "source_notes": "High-level Python web framework that encourages rapid development, following a batteries-included philosophy (built-in ORM, admin interface, authentication). Licensed under BSD-3-Clause."
+  "source_notes": "High-level Python web framework that encourages rapid development, following a batteries-included philosophy (built-in ORM, admin interface, authentication). Licensed under BSD-3-Clause.",
+  "id": "GH-000015"
 }

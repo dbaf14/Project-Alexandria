@@ -1,21 +1,68 @@
 {
-  "unique_tags": 47,
+  "unique_tags": 83,
   "tags": {
     "3d-simulation": [
       "GH-000007"
+    ],
+    "acid": [
+      "GH-000020"
+    ],
+    "api": [
+      "GH-000016"
+    ],
+    "asynchronous": [
+      "GH-000016"
     ],
     "autopilot": [
       "GH-000005",
       "GH-000012"
     ],
+    "backend": [
+      "GH-000015",
+      "GH-000019"
+    ],
     "behavior-trees": [
       "GH-000011"
+    ],
+    "cache": [
+      "GH-000022"
+    ],
+    "cloud-native": [
+      "GH-000017"
     ],
     "collision-detection": [
       "GH-000006"
     ],
+    "compiler": [
+      "GH-000023"
+    ],
     "compiler-toolchain": [
       "GH-000002"
+    ],
+    "component-based": [
+      "GH-000021"
+    ],
+    "concurrency": [
+      "GH-000023"
+    ],
+    "container-orchestration": [
+      "GH-000017"
+    ],
+    "containerization": [
+      "GH-000018"
+    ],
+    "containers": [
+      "GH-000018"
+    ],
+    "deep-learning": [
+      "GH-000024"
+    ],
+    "devops": [
+      "GH-000017",
+      "GH-000018"
+    ],
+    "distributed-systems": [
+      "GH-000017"
     ],
     "drone": [
       "GH-000005",
@@ -27,8 +74,17 @@
     "embedded": [
       "GH-000009"
     ],
+    "event-driven": [
+      "GH-000019"
+    ],
+    "extensible": [
+      "GH-000020"
+    ],
     "flight-controller": [
       "GH-000012"
+    ],
+    "frontend": [
+      "GH-000021"
     ],
     "game-port": [
       "GH-000001"
@@ -38,6 +94,15 @@
     ],
     "imitation-learning": [
       "GH-000008"
+    ],
+    "in-memory-database": [
+      "GH-000022"
+    ],
+    "javascript-runtime": [
+      "GH-000019"
+    ],
+    "key-value-store": [
+      "GH-000022"
     ],
     "kinematics": [
       "GH-000010"
@@ -57,11 +122,18 @@
     "machine-learning": [
       "GH-000003",
       "GH-000004",
-      "GH-000008"
+      "GH-000008",
+      "GH-000024"
     ],
     "manipulation": [
       "GH-000008",
       "GH-000010"
+    ],
+    "memory-safety": [
+      "GH-000023"
+    ],
+    "message-broker": [
+      "GH-000022"
     ],
     "meta-operating-system": [
       "GH-000013"
@@ -78,12 +150,27 @@
     "motion-planning": [
       "GH-000010"
     ],
+    "mvc": [
+      "GH-000015"
+    ],
     "n64": [
       "GH-000001",
       "GH-000002"
     ],
     "navigation": [
       "GH-000011"
+    ],
+    "neural-networks": [
+      "GH-000024"
+    ],
+    "npm": [
+      "GH-000019"
+    ],
+    "numerical-computation": [
+      "GH-000024"
+    ],
+    "orm": [
+      "GH-000015"
     ],
     "path-planning": [
       "GH-000011"
@@ -105,6 +192,9 @@
     ],
     "real-time": [
       "GH-000009"
+    ],
+    "relational-database": [
+      "GH-000020"
     ],
     "reverse-engineering": [
       "GH-000001",
@@ -137,19 +227,41 @@
     "slam": [
       "GH-000014"
     ],
+    "sql": [
+      "GH-000020"
+    ],
     "static-recompilation": [
       "GH-000001",
       "GH-000002"
     ],
+    "systems-programming": [
+      "GH-000023"
+    ],
     "text-to-image": [
       "GH-000004"
+    ],
+    "type-hints": [
+      "GH-000016"
     ],
     "uav": [
       "GH-000005",
       "GH-000012"
     ],
+    "ui-library": [
+      "GH-000021"
+    ],
     "unmanned-vehicles": [
       "GH-000005"
+    ],
+    "virtual-dom": [
+      "GH-000021"
+    ],
+    "virtualization": [
+      "GH-000018"
+    ],
+    "web-framework": [
+      "GH-000015",
+      "GH-000016"
     ]
   }
 }

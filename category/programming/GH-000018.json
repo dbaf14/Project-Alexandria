@@ -18,5 +18,6 @@
     "devops",
     "virtualization"
   ],
-  "source_notes": "Moby is the open-source project that provides the core components of the Docker Engine (container runtime, image building, networking). Licensed under Apache License 2.0."
+  "source_notes": "Moby is the open-source project that provides the core components of the Docker Engine (container runtime, image building, networking). Licensed under Apache License 2.0.",
+  "id": "GH-000018"
 }

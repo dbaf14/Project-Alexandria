@@ -19,5 +19,6 @@
     "cloud-native",
     "distributed-systems"
   ],
-  "source_notes": "Open-source system for automating deployment, scaling, and management of containerized applications, originally designed by Google and now maintained by the Cloud Native Computing Foundation. Licensed under Apache License 2.0."
+  "source_notes": "Open-source system for automating deployment, scaling, and management of containerized applications, originally designed by Google and now maintained by the Cloud Native Computing Foundation. Licensed under Apache License 2.0.",
+  "id": "GH-000017"
 }

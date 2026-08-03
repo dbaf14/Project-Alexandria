@@ -17,5 +17,6 @@
     "acid",
     "extensible"
   ],
-  "source_notes": "Open-source object-relational database system with over 35 years of active development, known for extensibility and SQL standards compliance. Licensed under the permissive PostgreSQL License."
+  "source_notes": "Open-source object-relational database system with over 35 years of active development, known for extensibility and SQL standards compliance. Licensed under the permissive PostgreSQL License.",
+  "id": "GH-000020"
 }

@@ -18,5 +18,6 @@
     "component-based",
     "virtual-dom"
   ],
-  "source_notes": "JavaScript library for building user interfaces through composable components, maintained by Meta. Licensed under MIT."
+  "source_notes": "JavaScript library for building user interfaces through composable components, maintained by Meta. Licensed under MIT.",
+  "id": "GH-000021"
 }

@@ -1,5 +1,5 @@
 {
-  "count": 14,
+  "count": 24,
   "entries": [
     {
       "id": "GH-000003",
@@ -48,6 +48,126 @@
         "compiler-toolchain"
       ],
       "text": "n64: recompiled (n64recomp) github programming static-recompilation n64 reverse-engineering compiler-toolchain requires a curated list of symbols and metadata alongside the binary to work c cpp-compiler"
+    },
+    {
+      "id": "GH-000015",
+      "name": "Django",
+      "category": "programming",
+      "tags": [
+        "web-framework",
+        "backend",
+        "orm",
+        "mvc"
+      ],
+      "text": "django github programming web-framework backend orm mvc monolithic, batteries-included design can be heavier than needed for small services compared to micro-frameworks python"
+    },
+    {
+      "id": "GH-000016",
+      "name": "FastAPI",
+      "category": "programming",
+      "tags": [
+        "web-framework",
+        "api",
+        "asynchronous",
+        "type-hints"
+      ],
+      "text": "fastapi github programming web-framework api asynchronous type-hints relies heavily on python type hints and pydantic conventions, which can be unfamiliar to developers coming from untyped python codebases python starlette pydantic"
+    },
+    {
+      "id": "GH-000017",
+      "name": "Kubernetes",
+      "category": "programming",
+      "tags": [
+        "container-orchestration",
+        "devops",
+        "cloud-native",
+        "distributed-systems"
+      ],
+      "text": "kubernetes github programming container-orchestration devops cloud-native distributed-systems significant operational complexity and steep learning curve for self-managed clusters (networking, rbac, storage, upgrades) container-runtime go etcd"
+    },
+    {
+      "id": "GH-000018",
+      "name": "Moby (Docker Engine)",
+      "category": "programming",
+      "tags": [
+        "containers",
+        "containerization",
+        "devops",
+        "virtualization"
+      ],
+      "text": "moby (docker engine) github programming containers containerization devops virtualization the moby/docker naming and repository split (moby as upstream open-source project vs. docker as the commercial product) is a frequent source of confusion for newcomers linux-kernel-namespaces-cgroups go"
+    },
+    {
+      "id": "GH-000019",
+      "name": "Node.js",
+      "category": "programming",
+      "tags": [
+        "javascript-runtime",
+        "backend",
+        "event-driven",
+        "npm"
+      ],
+      "text": "node.js github programming javascript-runtime backend event-driven npm callback-based and event-loop-driven concurrency model requires different reasoning about execution order than traditional multi-threaded code v8 libuv cpp"
+    },
+    {
+      "id": "GH-000020",
+      "name": "PostgreSQL",
+      "category": "programming",
+      "tags": [
+        "relational-database",
+        "sql",
+        "acid",
+        "extensible"
+      ],
+      "text": "postgresql github programming relational-database sql acid extensible vacuum and autovacuum tuning required for high-write workloads to avoid table/index bloat c"
+    },
+    {
+      "id": "GH-000021",
+      "name": "React",
+      "category": "programming",
+      "tags": [
+        "frontend",
+        "ui-library",
+        "component-based",
+        "virtual-dom"
+      ],
+      "text": "react github programming frontend ui-library component-based virtual-dom frequent breaking changes between major versions requiring migration effort (e.g. class to hooks, legacy context api) javascript jsx"
+    },
+    {
+      "id": "GH-000022",
+      "name": "Redis",
+      "category": "programming",
+      "tags": [
+        "in-memory-database",
+        "cache",
+        "key-value-store",
+        "message-broker"
+      ],
+      "text": "redis github programming in-memory-database cache key-value-store message-broker license changed from permissive bsd-3-clause (through 7.2.4) to source-available rsalv2/ssplv1 (2024), then to a tri-license including osi-approved agplv3 starting with redis 8.0 (2025) - relevant for downstream packaging and cloud provider usage the license change prompted a community fork (valkey, linux foundation) that remains bsd-3-clause licensed c"
+    },
+    {
+      "id": "GH-000023",
+      "name": "Rust",
+      "category": "programming",
+      "tags": [
+        "systems-programming",
+        "compiler",
+        "memory-safety",
+        "concurrency"
+      ],
+      "text": "rust github programming systems-programming compiler memory-safety concurrency compile times can be significantly longer than comparable c/c++ projects, especially for large codebases with heavy generics/macro use borrow checker has a notable learning curve for developers new to ownership-based memory management llvm"
+    },
+    {
+      "id": "GH-000024",
+      "name": "TensorFlow",
+      "category": "programming",
+      "tags": [
+        "machine-learning",
+        "deep-learning",
+        "numerical-computation",
+        "neural-networks"
+      ],
+      "text": "tensorflow github programming machine-learning deep-learning numerical-computation neural-networks large build system and long compile times from source api surface has changed significantly across major versions (1.x graph mode to 2.x eager execution) python cpp cuda-optional"
     },
     {
       "id": "GH-000005",

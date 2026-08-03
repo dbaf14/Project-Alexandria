@@ -19,5 +19,6 @@
     "asynchronous",
     "type-hints"
   ],
-  "source_notes": "Modern, high-performance Python web framework for building APIs, based on standard Python type hints, with automatic interactive documentation generation. Licensed under MIT."
+  "source_notes": "Modern, high-performance Python web framework for building APIs, based on standard Python type hints, with automatic interactive documentation generation. Licensed under MIT.",
+  "id": "GH-000016"
 }

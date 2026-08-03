@@ -1,5 +1,5 @@
 {
-  "count": 14,
+  "count": 24,
   "sources": [
     {
       "id": "GH-000003",
@@ -36,6 +36,96 @@
       "location": "https://github.com/N64Recomp/N64Recomp",
       "status": "active",
       "file": "category/programming/GH-000002.json"
+    },
+    {
+      "id": "GH-000015",
+      "type": "github",
+      "category": "programming",
+      "name": "Django",
+      "location": "https://github.com/django/django",
+      "status": "active",
+      "file": "category/programming/GH-000015.json"
+    },
+    {
+      "id": "GH-000016",
+      "type": "github",
+      "category": "programming",
+      "name": "FastAPI",
+      "location": "https://github.com/fastapi/fastapi",
+      "status": "active",
+      "file": "category/programming/GH-000016.json"
+    },
+    {
+      "id": "GH-000017",
+      "type": "github",
+      "category": "programming",
+      "name": "Kubernetes",
+      "location": "https://github.com/kubernetes/kubernetes",
+      "status": "active",
+      "file": "category/programming/GH-000017.json"
+    },
+    {
+      "id": "GH-000018",
+      "type": "github",
+      "category": "programming",
+      "name": "Moby (Docker Engine)",
+      "location": "https://github.com/moby/moby",
+      "status": "active",
+      "file": "category/programming/GH-000018.json"
+    },
+    {
+      "id": "GH-000019",
+      "type": "github",
+      "category": "programming",
+      "name": "Node.js",
+      "location": "https://github.com/nodejs/node",
+      "status": "active",
+      "file": "category/programming/GH-000019.json"
+    },
+    {
+      "id": "GH-000020",
+      "type": "github",
+      "category": "programming",
+      "name": "PostgreSQL",
+      "location": "https://github.com/postgres/postgres",
+      "status": "active",
+      "file": "category/programming/GH-000020.json"
+    },
+    {
+      "id": "GH-000021",
+      "type": "github",
+      "category": "programming",
+      "name": "React",
+      "location": "https://github.com/facebook/react",
+      "status": "active",
+      "file": "category/programming/GH-000021.json"
+    },
+    {
+      "id": "GH-000022",
+      "type": "github",
+      "category": "programming",
+      "name": "Redis",
+      "location": "https://github.com/redis/redis",
+      "status": "active",
+      "file": "category/programming/GH-000022.json"
+    },
+    {
+      "id": "GH-000023",
+      "type": "github",
+      "category": "programming",
+      "name": "Rust",
+      "location": "https://github.com/rust-lang/rust",
+      "status": "active",
+      "file": "category/programming/GH-000023.json"
+    },
+    {
+      "id": "GH-000024",
+      "type": "github",
+      "category": "programming",
+      "name": "TensorFlow",
+      "location": "https://github.com/tensorflow/tensorflow",
+      "status": "active",
+      "file": "category/programming/GH-000024.json"
     },
     {
       "id": "GH-000005",

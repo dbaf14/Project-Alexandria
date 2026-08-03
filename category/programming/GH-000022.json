@@ -18,5 +18,6 @@
     "key-value-store",
     "message-broker"
   ],
-  "source_notes": "In-memory data structure store used as a database, cache, and message broker, originally created by Salvatore Sanfilippo. As of Redis 8.x, tri-licensed under RSALv2, SSPLv1, and AGPLv3."
+  "source_notes": "In-memory data structure store used as a database, cache, and message broker, originally created by Salvatore Sanfilippo. As of Redis 8.x, tri-licensed under RSALv2, SSPLv1, and AGPLv3.",
+  "id": "GH-000022"
 }

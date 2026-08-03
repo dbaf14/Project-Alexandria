@@ -18,5 +18,6 @@
     "memory-safety",
     "concurrency"
   ],
-  "source_notes": "Compiler and source for the Rust programming language, a systems programming language focused on memory safety without garbage collection. Dual-licensed under MIT and Apache License 2.0."
+  "source_notes": "Compiler and source for the Rust programming language, a systems programming language focused on memory safety without garbage collection. Dual-licensed under MIT and Apache License 2.0.",
+  "id": "GH-000023"
 }

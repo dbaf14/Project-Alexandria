@@ -6,9 +6,9 @@
 
 _Automatically updated after each pipeline run (`scripts/update_readme.py`) — do not edit this section by hand._
 
-**Currently 0 analyzed entries available in 0 categories.**
+**Currently 24 analyzed entries available in 3 categories.**
 
-_No entries yet. Be the first to add one — see [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)._
+- 24 from GitHub
 <!-- OVERVIEW:END -->
 
 ## Project Description
