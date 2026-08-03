@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "Elmer FEM",
+  "location": "https://github.com/ElmerCSC/elmerfem",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "documentation is less extensive than some commercial FEA alternatives, and community support is smaller relative to project scope"
+  ],
+  "depends_on": [
+    "fortran",
+    "cpp",
+    "mpi"
+  ],
+  "tags": [
+    "finite-element-method",
+    "multiphysics-simulation",
+    "structural-analysis",
+    "heat-transfer"
+  ],
+  "source_notes": "Open-source multiphysics finite element software originally developed by CSC - IT Center for Science (Finland), covering structural mechanics, fluid dynamics, heat transfer, and electromagnetics. GPL-licensed (exact component-level SPDX identifiers vary)."
+}

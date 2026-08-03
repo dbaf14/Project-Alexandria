@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "FreeCAD",
+  "location": "https://github.com/FreeCAD/FreeCAD",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "third-party addon ecosystem (workbenches, macros) varies widely in maintenance quality and version compatibility"
+  ],
+  "depends_on": [
+    "opencascade",
+    "python",
+    "qt",
+    "coin3d"
+  ],
+  "tags": [
+    "cad",
+    "parametric-modeling",
+    "mechanical-engineering",
+    "3d-modeling"
+  ],
+  "source_notes": "General-purpose, feature-based parametric 3D CAD modeler aimed at mechanical engineering, product design, and architecture. Built on the OpenCasCade geometry kernel. Licensed under LGPL-2.1-or-later."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "OpenSCAD",
+  "location": "https://github.com/openscad/openscad",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "script-based, code-only modeling approach (no direct mouse-based mesh editing) has a learning curve for users coming from conventional CAD tools"
+  ],
+  "depends_on": [
+    "cpp",
+    "cgal",
+    "qt"
+  ],
+  "tags": [
+    "cad",
+    "programmatic-modeling",
+    "3d-printing",
+    "constructive-solid-geometry"
+  ],
+  "source_notes": "Script-based 3D CAD modeler where objects are described via a dedicated description language (constructive solid geometry approach) rather than interactively drawn. Popular for parametric 3D-printable designs. Licensed under GPLv2-or-later."
+}

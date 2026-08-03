@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "FEniCSx (DOLFINx)",
+  "location": "https://github.com/FEniCS/dolfinx",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "requires familiarity with variational/weak-form mathematical formulations of PDEs, which is a steep prerequisite for engineers without a numerical methods background"
+  ],
+  "depends_on": [
+    "cpp",
+    "python",
+    "mpi",
+    "petsc"
+  ],
+  "tags": [
+    "finite-element-method",
+    "partial-differential-equations",
+    "numerical-simulation",
+    "high-performance-computing"
+  ],
+  "source_notes": "Next-generation computational component of the FEniCS Project, a finite element method (FEM) library for automated solution of partial differential equations, used across structural, fluid, and multiphysics engineering simulation. Licensed under LGPLv3-or-later."
+}

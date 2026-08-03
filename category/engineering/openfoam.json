@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "OpenFOAM",
+  "location": "https://github.com/OpenFOAM/OpenFOAM-dev",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "ecosystem is split between two parallel distributions (OpenFOAM Foundation and OpenCFD/ESI-OpenCFD), with occasional divergence in features and case-file compatibility"
+  ],
+  "depends_on": [
+    "cpp",
+    "mpi"
+  ],
+  "tags": [
+    "computational-fluid-dynamics",
+    "cfd",
+    "finite-volume-method",
+    "simulation"
+  ],
+  "source_notes": "Open-source C++ toolbox for computational fluid dynamics (CFD), covering fluid flow, heat transfer, and related continuum mechanics problems using the finite volume method. Licensed under GPLv3."
+}

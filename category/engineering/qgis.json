@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "QGIS",
+  "location": "https://github.com/qgis/QGIS",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "plugin ecosystem quality and compatibility across major versions varies, similar to other extensible desktop applications"
+  ],
+  "depends_on": [
+    "cpp",
+    "qt",
+    "gdal",
+    "python"
+  ],
+  "tags": [
+    "gis",
+    "geospatial",
+    "cartography",
+    "remote-sensing"
+  ],
+  "source_notes": "Free and open-source desktop Geographic Information System (GIS) for viewing, editing, and analyzing geospatial data, used in civil, environmental, and surveying engineering workflows. Licensed under GPLv2-or-later."
+}
