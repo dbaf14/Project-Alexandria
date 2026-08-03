@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "vllm-project/vllm",
+  "location": "https://github.com/vllm-project/vllm",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "GPU support varies between hardware platforms.",
+    "Some features depend on supported model architectures."
+  ],
+  "depends_on": [
+    "Python",
+    "PyTorch"
+  ],
+  "tags": [
+    "llm",
+    "serving",
+    "gpu",
+    "pytorch",
+    "inference"
+  ],
+  "source_notes": "High-throughput inference engine for large language models."
+}
