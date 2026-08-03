@@ -16,6 +16,7 @@ Two GitHub Actions workflows handle the automation:
 2. validate_entries.py   Schema validation — aborts on errors
 3. detect_duplicates.py  Write duplicate check
 4. build_index.py        Rebuild all meta/*.json
+5. update_readme.py      Refresh the Overview section in README.md
 ```
 
 The order is deliberate: IDs must be final (step 1) before validation can
@@ -74,6 +75,18 @@ Rebuilds **all** `meta/*.json` files (except `id_counters.json` and
 completely from the current state of `category/` and `connections/` on
 every run. Not incremental — unproblematic at the project's current
 scale and much less error-prone than diff-based patching.
+
+## README Overview (`scripts/update_readme.py`)
+
+Regenerates the block between `<!-- OVERVIEW:START -->` and
+`<!-- OVERVIEW:END -->` at the top of `README.md`, using the numbers from
+the `meta/statistics.json` file that was just rebuilt in the previous step.
+Shows the total entry count, the number of categories with at least one
+entry, and a breakdown per source `type` (e.g. "12 from GitHub", "2 from
+science papers"). Do not edit the content between the markers by hand —
+it is fully overwritten on every pipeline run. If the markers are ever
+removed from `README.md`, the script re-inserts them directly after the
+title on the next run.
 
 ## Auto-Commit
 
