@@ -1,0 +1,24 @@
+{
+  "type": "paper",
+  "name": "Interferometric single-shot parity measurement in InAs-Al hybrid devices",
+  "location": "https://doi.org/10.1038/s41586-024-08445-2",
+  "status": "active",
+  "works": "unknown",
+  "development": "finished",
+  "problems": [
+    "a formal 'Matters Arising' challenge was published in Nature (24 June 2026) disputing the validity of the topological gap protocol used to support the paper's central claim",
+    "the paper's editorial note states the results do not by themselves constitute evidence for Majorana zero modes, only for the device architecture"
+  ],
+  "depends_on": [
+    "indium-arsenide-aluminum-heterostructure",
+    "topological-gap-protocol",
+    "superconducting-nanowire"
+  ],
+  "tags": [
+    "topological-qubit",
+    "majorana-zero-modes",
+    "quantum-computing",
+    "superconductor-semiconductor-hybrid"
+  ],
+  "source_notes": "Microsoft Azure Quantum et al., Nature 638, 651-655 (2025). Underpins the 'Majorana 1' chip announcement. Single-shot interferometric parity measurement in InAs-Al devices, 1% error rate. Subject of an ongoing dispute (see related Legg entry)."
+}

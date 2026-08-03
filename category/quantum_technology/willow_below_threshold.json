@@ -1,0 +1,23 @@
+{
+  "type": "paper",
+  "name": "Quantum error correction below the surface code threshold",
+  "location": "https://doi.org/10.1038/s41586-024-08449-y",
+  "status": "active",
+  "works": true,
+  "development": "finished",
+  "problems": [
+    "correlated errors (e.g. from cosmic rays or two-level system defects) remain a limiting factor for reaching error rates needed for commercially relevant applications"
+  ],
+  "depends_on": [
+    "superconducting-qubits",
+    "surface-code",
+    "willow-chip"
+  ],
+  "tags": [
+    "quantum-error-correction",
+    "quantum-computing",
+    "superconducting-qubits",
+    "fault-tolerance"
+  ],
+  "source_notes": "Google Quantum AI, Nature (9 Dec 2024). First superconducting processor (Willow, 105 qubits) to show exponentially decreasing logical error rates as physical qubits scale up ('below threshold'), using a surface code with real-time decoding."
+}

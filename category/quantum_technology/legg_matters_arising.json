@@ -1,0 +1,23 @@
+{
+  "type": "paper",
+  "name": "On the robustness of topological gap detection via transport",
+  "location": "Nature 654, E22-E26 (2026)",
+  "status": "active",
+  "works": "unknown",
+  "development": "finished",
+  "problems": [
+    "identifies coding errors in the Topological Gap Protocol (TGP) analysis code, including a hardcoded filter that displayed only the single largest favorable data region",
+    "the challenged authors (Microsoft Azure Quantum) published a rebuttal in the same Nature issue disputing the significance of the identified issues"
+  ],
+  "depends_on": [
+    "topological-gap-protocol",
+    "nature-638-651-655-2025"
+  ],
+  "tags": [
+    "topological-qubit",
+    "majorana-zero-modes",
+    "peer-review",
+    "matters-arising"
+  ],
+  "source_notes": "Henry F. Legg, Nature 654, E22-E26 (2026), 'Matters Arising' section for formal challenges to published research. Submitted March 2025. Argues the topological gap protocol can call the same data region gapped or gapless depending on parameters."
+}

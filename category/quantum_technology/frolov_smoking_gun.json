@@ -1,0 +1,22 @@
+{
+  "type": "paper",
+  "name": "Data sharing helps avoid \"smoking gun\" claims of topological milestones",
+  "location": "https://doi.org/10.1126/science.adk9181",
+  "status": "active",
+  "works": true,
+  "development": "finished",
+  "problems": [
+    "underwent a two-year peer and editorial review process after submission in September 2023, partly attributed by the authors to journals treating replication studies as lacking novelty"
+  ],
+  "depends_on": [
+    "nanowire-devices",
+    "shared-experimental-datasets"
+  ],
+  "tags": [
+    "topological-qubit",
+    "reproducibility",
+    "majorana-zero-modes",
+    "replication-study"
+  ],
+  "source_notes": "S. M. Frolov et al. (Pittsburgh, Minnesota, Grenoble), Science (8 Jan 2026). Replication study of prior topological-milestone claims; several 'striking' signals admit non-topological explanations with full datasets. Calls for more data sharing."
+}
