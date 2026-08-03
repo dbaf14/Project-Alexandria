@@ -8,6 +8,7 @@ Runs the full pipeline in the correct order:
 2. validate_entries.py  -> schema validation (aborts on errors)
 3. detect_duplicates.py -> write duplicate check
 4. build_index.py       -> rebuild all meta/*.json
+5. update_readme.py     -> refresh the Overview section in README.md
 
 Used both locally (before a manual commit) and in the GitHub Actions
 workflow. On validation errors, the pipeline stops with exit code 1
@@ -25,6 +26,7 @@ STEPS = [
     ("Validation", "validate_entries.py"),
     ("Duplicate check", "detect_duplicates.py"),
     ("Index build", "build_index.py"),
+    ("README overview", "update_readme.py"),
 ]
 
 
