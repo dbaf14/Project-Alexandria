@@ -1,0 +1,21 @@
+{
+  "type": "github",
+  "name": "PostgreSQL",
+  "location": "https://github.com/postgres/postgres",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "vacuum and autovacuum tuning required for high-write workloads to avoid table/index bloat"
+  ],
+  "depends_on": [
+    "c"
+  ],
+  "tags": [
+    "relational-database",
+    "sql",
+    "acid",
+    "extensible"
+  ],
+  "source_notes": "Open-source object-relational database system with over 35 years of active development, known for extensibility and SQL standards compliance. Licensed under the permissive PostgreSQL License."
+}

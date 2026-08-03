@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "Redis",
+  "location": "https://github.com/redis/redis",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "license changed from permissive BSD-3-Clause (through 7.2.4) to source-available RSALv2/SSPLv1 (2024), then to a tri-license including OSI-approved AGPLv3 starting with Redis 8.0 (2025) - relevant for downstream packaging and cloud provider usage",
+    "the license change prompted a community fork (Valkey, Linux Foundation) that remains BSD-3-Clause licensed"
+  ],
+  "depends_on": [
+    "c"
+  ],
+  "tags": [
+    "in-memory-database",
+    "cache",
+    "key-value-store",
+    "message-broker"
+  ],
+  "source_notes": "In-memory data structure store used as a database, cache, and message broker, originally created by Salvatore Sanfilippo. As of Redis 8.x, tri-licensed under RSALv2, SSPLv1, and AGPLv3."
+}

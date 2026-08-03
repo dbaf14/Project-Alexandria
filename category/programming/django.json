@@ -1,0 +1,21 @@
+{
+  "type": "github",
+  "name": "Django",
+  "location": "https://github.com/django/django",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "monolithic, batteries-included design can be heavier than needed for small services compared to micro-frameworks"
+  ],
+  "depends_on": [
+    "python"
+  ],
+  "tags": [
+    "web-framework",
+    "backend",
+    "orm",
+    "mvc"
+  ],
+  "source_notes": "High-level Python web framework that encourages rapid development, following a batteries-included philosophy (built-in ORM, admin interface, authentication). Licensed under BSD-3-Clause."
+}

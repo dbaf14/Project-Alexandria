@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "Moby (Docker Engine)",
+  "location": "https://github.com/moby/moby",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "the Moby/Docker naming and repository split (Moby as upstream open-source project vs. Docker as the commercial product) is a frequent source of confusion for newcomers"
+  ],
+  "depends_on": [
+    "linux-kernel-namespaces-cgroups",
+    "go"
+  ],
+  "tags": [
+    "containers",
+    "containerization",
+    "devops",
+    "virtualization"
+  ],
+  "source_notes": "Moby is the open-source project that provides the core components of the Docker Engine (container runtime, image building, networking). Licensed under Apache License 2.0."
+}

@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "Rust",
+  "location": "https://github.com/rust-lang/rust",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "compile times can be significantly longer than comparable C/C++ projects, especially for large codebases with heavy generics/macro use",
+    "borrow checker has a notable learning curve for developers new to ownership-based memory management"
+  ],
+  "depends_on": [
+    "llvm"
+  ],
+  "tags": [
+    "systems-programming",
+    "compiler",
+    "memory-safety",
+    "concurrency"
+  ],
+  "source_notes": "Compiler and source for the Rust programming language, a systems programming language focused on memory safety without garbage collection. Dual-licensed under MIT and Apache License 2.0."
+}

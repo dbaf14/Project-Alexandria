@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "Kubernetes",
+  "location": "https://github.com/kubernetes/kubernetes",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "significant operational complexity and steep learning curve for self-managed clusters (networking, RBAC, storage, upgrades)"
+  ],
+  "depends_on": [
+    "container-runtime",
+    "go",
+    "etcd"
+  ],
+  "tags": [
+    "container-orchestration",
+    "devops",
+    "cloud-native",
+    "distributed-systems"
+  ],
+  "source_notes": "Open-source system for automating deployment, scaling, and management of containerized applications, originally designed by Google and now maintained by the Cloud Native Computing Foundation. Licensed under Apache License 2.0."
+}

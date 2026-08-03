@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "React",
+  "location": "https://github.com/facebook/react",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "frequent breaking changes between major versions requiring migration effort (e.g. class to hooks, legacy context API)"
+  ],
+  "depends_on": [
+    "javascript",
+    "jsx"
+  ],
+  "tags": [
+    "frontend",
+    "ui-library",
+    "component-based",
+    "virtual-dom"
+  ],
+  "source_notes": "JavaScript library for building user interfaces through composable components, maintained by Meta. Licensed under MIT."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "FastAPI",
+  "location": "https://github.com/fastapi/fastapi",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "relies heavily on Python type hints and Pydantic conventions, which can be unfamiliar to developers coming from untyped Python codebases"
+  ],
+  "depends_on": [
+    "python",
+    "starlette",
+    "pydantic"
+  ],
+  "tags": [
+    "web-framework",
+    "api",
+    "asynchronous",
+    "type-hints"
+  ],
+  "source_notes": "Modern, high-performance Python web framework for building APIs, based on standard Python type hints, with automatic interactive documentation generation. Licensed under MIT."
+}
