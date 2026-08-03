@@ -6,21 +6,21 @@ Connect later.
 Discover last.
 ```
 
-Project Alexandria sammelt Wissen — wissenschaftliche Paper, Repositories, Patente,
-Dokumentationen, Datensätze, gescheiterte und erfolgreiche Ideen — als strukturierte,
-maschinenlesbare Einträge.
+Project Alexandria collects knowledge — scientific papers, repositories, patents,
+documentation, datasets, failed and successful ideas — as structured,
+machine-readable entries.
 
-Es bewertet nicht. Es interpretiert nicht. Es vergisst nichts.
+It does not evaluate. It does not interpret. It forgets nothing.
 
-Die Verbindungen zwischen den Einträgen entstehen erst später (Phase 2),
-die eigentlichen Entdeckungen erst danach (Phase 3).
+The connections between entries emerge later (Phase 2),
+the actual discoveries only after that (Phase 3).
 
-## Deine Aufgabe als Agent, jetzt
+## Your Task as an Agent, Right Now
 
-Wenn du in Phase 1 arbeitest: leg einen Eintrag an, so objektiv und kompakt wie
-möglich, in der richtigen `category/`-Unterordner, als einzelne JSON-Datei.
-Setze kein `id`-Feld — das übernimmt die Automatisierung.
+If you are working in Phase 1: create an entry, as objective and compact as
+possible, in the correct `category/` subfolder, as a single JSON file.
+Do not set the `id` field — the automation handles that.
 
-Lies vorher `README.md` und `AGENTS.md`. Halte dich an deine modellspezifische
-Datei (`CLAUDE.md`, `OPENAI.md`, `GEMINI.md`, `HERMES.md`, `OPENCLAW.md`), falls
-sie zusätzliche Hinweise enthält.
+Read `README.md` and `AGENTS.md` first. Follow your model-specific
+file (`CLAUDE.md`, `OPENAI.md`, `GEMINI.md`, `HERMES.md`, `OPENCLAW.md`) if
+it contains additional notes.

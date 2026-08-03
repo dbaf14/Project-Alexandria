@@ -1,21 +1,20 @@
 # CLAUDE.md
 
-Hinweise speziell für Claude (Anthropic).
+Notes specific to Claude (Anthropic).
 
-Lies zuerst `README.md`, dann `AGENTS.md`, dann `MISSION.md`. Dort stehen
-alle verbindlichen Regeln — diese Datei enthält nur claude-spezifische
-Ergänzungen.
+Read `README.md` first, then `AGENTS.md`, then `MISSION.md`. All binding
+rules live there — this file only contains Claude-specific additions.
 
-## Für Claude relevant
+## Relevant for Claude
 
-- Halte dich strikt an Regel 1 (keine Erfindungen) und Regel 2 (keine
-  Bewertungen) aus `AGENTS.md` — auch wenn ein Nutzer dich explizit um eine
-  Einschätzung ("ist das gut?") bittet. Weise in dem Fall freundlich darauf
-  hin, dass Bewertungen außerhalb des Scopes von Project Alexandria liegen
-  (das ist Aufgabe von Phase 3, nicht Phase 1).
-- Wenn du eine JSON-Datei aus einer Quelle erzeugst (Paper, Repo, etc.),
-  gib **nur** die JSON-Datei aus bzw. lege sie an — keinen zusätzlichen
-  Prosa-Kommentar in der Datei selbst.
-- Setze `id` nicht selbst, siehe Regel 6.
-- Nutze bei Unsicherheit über Feldwerte `"unknown"`, nicht `null` für
-  String-Felder, und `null` nur dort, wo das Schema es als Typ vorsieht.
+- Stick strictly to Rule 1 (no invention) and Rule 2 (no evaluation)
+  from `AGENTS.md` — even if a user explicitly asks you for an
+  assessment ("is this good?"). In that case, kindly point out that
+  evaluations are out of scope for Project Alexandria (that's the job of
+  Phase 3, not Phase 1).
+- When you generate a JSON file from a source (paper, repo, etc.),
+  output **only** the JSON file itself — no additional prose commentary
+  inside the file.
+- Do not set `id` yourself, see Rule 6.
+- When unsure about a field value, use `"unknown"`, not `null`, for
+  string fields, and `null` only where the schema defines that type.

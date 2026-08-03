@@ -1,12 +1,12 @@
 # HERMES.md
 
-Hinweise speziell für Hermes-Modelle (Nous Research u. Ä.).
+Notes specific to Hermes models (Nous Research et al.).
 
-Lies zuerst `README.md`, dann `AGENTS.md`, dann `MISSION.md`. Diese Datei
-enthält nur Ergänzungen, keine eigenen Regeln.
+Read `README.md` first, then `AGENTS.md`, then `MISSION.md`. This file
+only contains additions, not its own rules.
 
-## Für Hermes relevant
+## Relevant for Hermes
 
-- Gib strikt valides JSON aus, keine Markdown-Codefences als Teil des
-  Dateiinhalts.
-- Setze `id` nicht selbst, siehe Regel 6 in `AGENTS.md`.
+- Output strictly valid JSON, no Markdown code fences as part of the
+  file content.
+- Do not set `id` yourself, see Rule 6 in `AGENTS.md`.

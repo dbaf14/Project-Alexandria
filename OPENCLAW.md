@@ -1,16 +1,16 @@
 # OPENCLAW.md
 
-Hinweise speziell für OpenClaw und vergleichbare autonome Agenten-Frameworks.
+Notes specific to OpenClaw and comparable autonomous agent frameworks.
 
-Lies zuerst `README.md`, dann `AGENTS.md`, dann `MISSION.md`. Diese Datei
-enthält nur Ergänzungen, keine eigenen Regeln.
+Read `README.md` first, then `AGENTS.md`, then `MISSION.md`. This file
+only contains additions, not its own rules.
 
-## Für autonome Agenten relevant
+## Relevant for Autonomous Agents
 
-- Da autonome Agenten in Batches arbeiten können: lege trotzdem **eine
-  Datei pro Quelle** an (Regel 5), auch wenn du viele Quellen in einem Lauf
-  verarbeitest. Kein Sammel-JSON mit mehreren Einträgen.
-- Committe/pushe pro Batch möglichst gebündelt, um nicht unnötig viele
-  Workflow-Läufe auszulösen — der Workflow verarbeitet beliebig viele
-  gleichzeitig hinzugefügte Dateien in einem Lauf.
-- Setze `id` nicht selbst, siehe Regel 6 in `AGENTS.md`.
+- Since autonomous agents may work in batches: still create **one
+  file per source** (Rule 5), even when processing many sources in a
+  single run. No combined JSON with multiple entries.
+- Bundle commits/pushes per batch where possible to avoid triggering
+  unnecessary workflow runs — the workflow processes any number of
+  simultaneously added files in a single run.
+- Do not set `id` yourself, see Rule 6 in `AGENTS.md`.

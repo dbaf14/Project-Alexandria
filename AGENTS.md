@@ -1,75 +1,76 @@
-# AGENTS.md — Regeln für KI-Agenten
+# AGENTS.md — Rules for AI Agents
 
-Dies ist das verbindliche Regelwerk für jede KI (und jeden Menschen), die/der
-Einträge zu Project Alexandria hinzufügt oder bearbeitet. Modellspezifische
-Dateien (`CLAUDE.md`, `OPENAI.md`, `GEMINI.md`, `HERMES.md`, `OPENCLAW.md`)
-verweisen hierher und ergänzen nur, was für das jeweilige Modell relevant ist.
-Widerspricht sich etwas, gilt diese Datei.
+This is the binding rule set for every AI (and every human) adding to or
+editing Project Alexandria entries. Model-specific files
+(`CLAUDE.md`, `OPENAI.md`, `GEMINI.md`, `HERMES.md`, `OPENCLAW.md`) point
+back here and only add what's relevant for that specific model. If
+something conflicts, this file takes precedence.
 
-## Regel 1 — Keine Erfindungen
+## Rule 1 — No Invention
 
-Wenn ein Fakt nicht sicher bekannt ist, wird er **nicht geraten**.
+If a fact is not reliably known, it is **not guessed**.
 
-Verwende `"unknown"` (als String) oder `null`, je nach Feldtyp, statt eine
-plausible, aber unbelegte Angabe zu machen. Ein leeres/unsicheres Feld ist
-immer besser als ein falsches.
+Use `"unknown"` (as a string) or `null`, depending on the field type,
+instead of making a plausible but unsubstantiated claim. An empty/uncertain
+field is always better than a wrong one.
 
-## Regel 2 — Keine Bewertungen
+## Rule 2 — No Evaluation
 
-Project Alexandria trifft keine Werturteile. Vermeide Formulierungen wie
-"gut", "schlecht", "wichtig", "vielversprechend", "nutzlos" — auch nicht in
-`problems` oder `tags`. Beschreibe nur, was beobachtbar ist (z. B. "hoher
-Speicherverbrauch" statt "schlecht optimiert").
+Project Alexandria makes no value judgments. Avoid phrases like
+"good", "bad", "important", "promising", "useless" — even in
+`problems` or `tags`. Describe only what is observable (e.g. "high
+memory usage" instead of "poorly optimized").
 
-## Regel 3 — Keine langen Zusammenfassungen
+## Rule 3 — No Long Summaries
 
-Kein Fließtext, keine Wikipedia-Absätze. Ein Eintrag besteht aus kurzen,
-strukturierten Feldern (siehe `schemas/entry.schema.json`). Wenn du unsicher
-bist, ob ein Detail rein soll: eher weglassen.
+No prose, no Wikipedia-style paragraphs. An entry consists of short,
+structured fields (see `schemas/entry.schema.json`). If you're unsure
+whether a detail belongs, leave it out.
 
-## Regel 4 — Historische Daten bleiben erhalten
+## Rule 4 — Historical Data Is Preserved
 
-Bestehende Einträge dürfen korrigiert werden, wenn ein **Fakt** falsch ist
-(z. B. eine tote URL, ein falscher Typ). Ein Eintrag darf **nicht** gelöscht
-werden, nur weil ein Projekt aufgegeben wurde, gescheitert ist oder veraltet
-wirkt — setze stattdessen `"status": "abandoned"` bzw. `"works": false`.
+Existing entries may be corrected if a **fact** is wrong (e.g. a dead
+URL, a wrong type). An entry must **not** be deleted just because a
+project was abandoned, failed, or seems outdated — instead set
+`"status": "abandoned"` or `"works": false`.
 
-## Regel 5 — Ein Eintrag = eine Datei
+## Rule 5 — One Entry = One File
 
-Lege pro Quelle genau eine JSON-Datei im passenden `category/<kategorie>/`
-Ordner an. Erfinde keine neuen Top-Level-Kategorien ohne Rücksprache — nutze
-bei Unsicherheit die nächstpassende bestehende Kategorie und ordne über
-`tags` feiner ein.
+Create exactly one JSON file per source in the appropriate
+`category/<category>/` folder. Don't invent new top-level categories
+without prior discussion — when uncertain, use the closest existing
+category and refine using `tags`.
 
-## Regel 6 — Keine ID selbst vergeben
+## Rule 6 — Do Not Assign Your Own ID
 
-Lass das Feld `id` beim Anlegen weg oder setze es auf `"unknown"`. Die
-GitHub-Action (`scripts/assign_ids.py`) vergibt automatisch eine eindeutige
-ID nach dem Schema `<PREFIX>-<sechsstellige Zahl>` (Prefix abhängig vom
-Feld `type`, siehe `scripts/assign_ids.py`) und benennt die Datei passend um.
-Falls du dennoch programmatisch IDs vergibst, prüfe vorher `meta/id_counters.json`.
+Leave the `id` field out when creating an entry, or set it to
+`"unknown"`. The GitHub Action (`scripts/assign_ids.py`) automatically
+assigns a unique ID following the pattern `<PREFIX>-<six-digit number>`
+(prefix depends on the `type` field, see `scripts/assign_ids.py`) and
+renames the file accordingly. If you do assign IDs programmatically for
+some reason, check `meta/id_counters.json` beforehand.
 
-## Regel 7 — Schema einhalten
+## Rule 7 — Follow the Schema
 
-Jeder Eintrag muss gegen `schemas/entry.schema.json` validieren, jede
-Verbindung in `connections/` gegen `schemas/connection.schema.json`. Der
-Workflow lehnt ungültiges JSON ab (bei PRs) bzw. markiert es in
-`meta/statistics.json` (bei direktem Push).
+Every entry must validate against `schemas/entry.schema.json`, every
+connection in `connections/` against `schemas/connection.schema.json`. The
+workflow rejects invalid JSON (on PRs) or flags it in
+`meta/statistics.json` (on direct push).
 
-## Reihenfolge beim Lesen
+## Reading Order
 
-1. `README.md` — Überblick und Prinzipien
-2. `AGENTS.md` — dieses Dokument
-3. `MISSION.md` — Kurzfassung der Aufgabe
-4. deine modellspezifische Datei, falls vorhanden
+1. `README.md` — overview and principles
+2. `AGENTS.md` — this document
+3. `MISSION.md` — short summary of the task
+4. your model-specific file, if available
 
-## Kurzfassung
+## Summary
 
 ```
-unknown > geraten
-neutral > bewertet
-kurz    > ausführlich
-erhalten > gelöscht
-eine Quelle = eine Datei
-keine eigene ID
+unknown  > guessed
+neutral  > evaluated
+short    > detailed
+preserved > deleted
+one source = one file
+no self-assigned ID
 ```

@@ -1,28 +1,28 @@
 # Project Alexandria
 ### An Open Knowledge Discovery Infrastructure
 
-## Projektbeschreibung
+## Project Description
 
-Project Alexandria ist eine offene, maschinenlesbare Wissensplattform mit dem Ziel, wissenschaftliche Erkenntnisse, technische Entwicklungen, Open-Source-Projekte, Forschungsarbeiten und ungelöste Probleme der Menschheit strukturiert zu sammeln.
+Project Alexandria is an open, machine-readable knowledge platform whose goal is to collect scientific findings, technical developments, open-source projects, research papers, and humanity's unsolved problems in a structured way.
 
-Das Projekt versucht nicht, Wissen sofort zu bewerten oder Lösungen zu erzeugen.
+The project does not try to evaluate knowledge or generate solutions right away.
 
-Die erste Aufgabe ist:
+The first task is:
 
-> **Wissen bewahren. Zusammenhänge später entdecken.**
+> **Preserve knowledge. Discover connections later.**
 
-Viele wertvolle Ideen gehen verloren, weil Informationen getrennt existieren:
+Many valuable ideas get lost because information exists in isolation:
 
-- Eine wissenschaftliche Arbeit beschreibt ein ungelöstes Problem.
-- Ein Entwickler veröffentlicht eine technische Lösung.
-- Ein Forscherteam entdeckt einen neuen Ansatz.
-- Ein Hobbyprojekt zeigt eine praktische Umsetzung.
+- A scientific paper describes an unsolved problem.
+- A developer publishes a technical solution.
+- A research team discovers a new approach.
+- A hobby project shows a practical implementation.
 
-Oft existiert die Verbindung bereits – aber niemand erkennt sie.
+The connection often already exists — nobody just recognizes it yet.
 
-Project Alexandria soll eine Grundlage schaffen, auf der zukünftige Menschen und KI-Systeme solche Verbindungen finden können.
+Project Alexandria aims to build a foundation on which future humans and AI systems can find these connections.
 
-## Grundprinzip
+## Core Principle
 
 ```
 Collect first.
@@ -30,26 +30,26 @@ Connect later.
 Discover last.
 ```
 
-Das Projekt besteht aus drei Phasen.
+The project consists of three phases.
 
 ## Phase 1 – Knowledge Collection
 
-In dieser Phase werden Informationen gesammelt.
+In this phase, information is collected.
 
-Quellen können sein:
+Sources can be:
 
-- wissenschaftliche Paper
-- GitHub-Repositories
-- Patente
-- technische Dokumentationen
-- Forschungsprojekte
-- Datensätze
-- Open-Source-Projekte
-- historische technische Dokumente
+- scientific papers
+- GitHub repositories
+- patents
+- technical documentation
+- research projects
+- datasets
+- open-source projects
+- historical technical documents
 
-Jede Quelle wird als einzelner strukturierter Datensatz gespeichert.
+Each source is stored as a single structured record.
 
-**Eine Quelle = eine JSON-Datei.**
+**One source = one JSON file.**
 
 ```
 category/
@@ -57,9 +57,9 @@ category/
       └── GH-000123.json
 ```
 
-### Datenstruktur eines Eintrags
+### Structure of an Entry
 
-Jeder Eintrag soll kurz und objektiv bleiben.
+Each entry should stay short and objective.
 
 ```json
 {
@@ -86,25 +86,25 @@ Jeder Eintrag soll kurz und objektiv bleiben.
 }
 ```
 
-> **Wichtig:** Du musst das Feld `id` beim Anlegen nicht selbst setzen. Lass es weg oder setze es auf `"unknown"` – die Automatisierung vergibt beim nächsten Push automatisch eine eindeutige ID und benennt die Datei passend um. Details dazu in [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md).
+> **Note:** You don't need to set the `id` field yourself when creating an entry. Leave it out or set it to `"unknown"` — the automation assigns a unique ID and renames the file accordingly on the next push. Details in [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md).
 
-## Regeln für KI-Agenten und Menschen
+## Rules for AI Agents and Humans
 
-**Regel 1 – Keine Erfindungen.**
-Wenn etwas unbekannt ist: `"unknown"` ist besser als eine Vermutung.
+**Rule 1 – No inventing facts.**
+If something is unknown: `"unknown"` is better than a guess.
 
-**Regel 2 – Keine Bewertungen.**
-Project Alexandria entscheidet nicht: gut, schlecht, wichtig, unwichtig. Diese Entscheidungen gehören späteren Analysen (Phase 3).
+**Rule 2 – No evaluations.**
+Project Alexandria does not decide: good, bad, important, unimportant. Those judgments belong to later analysis (Phase 3).
 
-**Regel 3 – Keine langen Zusammenfassungen.**
-Das Ziel ist nicht ein Wikipedia-Ersatz, sondern ein kompakter Wissensindex.
+**Rule 3 – No long summaries.**
+The goal is not a Wikipedia replacement, but a compact knowledge index.
 
-**Regel 4 – Historische Daten bleiben erhalten.**
-Ein Eintrag darf korrigiert werden, wenn Fakten falsch sind. Aber: Eine alte Idee bleibt erhalten, auch wenn sie gescheitert ist. Denn eine gescheiterte Idee kann mit neuer Technologie plötzlich relevant werden.
+**Rule 4 – Historical data is preserved.**
+An entry may be corrected if facts are wrong. But: an old idea remains preserved even if it failed. Because a failed idea can suddenly become relevant with new technology.
 
-Die vollständigen, verbindlichen Regeln für KI-Agenten stehen in [`AGENTS.md`](AGENTS.md).
+The full, binding rules for AI agents are in [`AGENTS.md`](AGENTS.md).
 
-## Projektstruktur
+## Project Structure
 
 ```
 Project-Alexandria/
@@ -137,23 +137,23 @@ Project-Alexandria/
 
 ## AI Agent Integration
 
-Project Alexandria ist bewusst für KI-Agenten vorbereitet.
+Project Alexandria is deliberately built for AI agents.
 
-Jede KI soll zuerst lesen:
+Every AI should read, in order:
 
 1. `README.md`
 2. `AGENTS.md`
 3. `MISSION.md`
 
-Danach kennt sie das Ziel, die Regeln, das Datenformat und ihre Aufgabe.
+After that, it knows the goal, the rules, the data format, and its task.
 
-Unterstützte Agenten können sein: ChatGPT, Claude, Gemini, OpenClaw, Hermes, lokale Modelle, zukünftige autonome Forschungsagenten.
+Supported agents can be: ChatGPT, Claude, Gemini, OpenClaw, Hermes, local models, future autonomous research agents.
 
 ## Phase 2 – Connection Discovery
 
-Nachdem genügend Wissen gesammelt wurde, beginnt die zweite Phase.
+Once enough knowledge has been collected, the second phase begins.
 
-Der Ordner `connections/` enthält keine Rohdaten. Dort werden nur Beziehungen gespeichert.
+The `connections/` folder contains no raw data. It stores relationships only.
 
 ```json
 {
@@ -170,21 +170,21 @@ Der Ordner `connections/` enthält keine Rohdaten. Dort werden nur Beziehungen g
 }
 ```
 
-Mögliche Verbindungen: gleiche Probleme, gleiche Technologien, gleiche Abhängigkeiten, unterschiedliche Disziplinen mit ähnlichen Lösungen.
+Possible connections: same problems, same technologies, same dependencies, different disciplines with similar solutions.
 
 ## Phase 3 – Discovery
 
-Erst jetzt beginnt die eigentliche "Magie". KI-Systeme analysieren tausende Projekte, tausende Paper, Millionen Tags, Probleme, Abhängigkeiten – und suchen nach unbekannten Zusammenhängen, vergessenen Lösungen, wiederkehrenden Problemen, neuen Kombinationen bestehender Technologien.
+Only now does the actual "magic" begin. AI systems analyze thousands of projects, thousands of papers, millions of tags, problems, and dependencies — searching for unknown connections, forgotten solutions, recurring problems, and new combinations of existing technologies.
 
-## Automatisierung
+## Automation
 
-Das Repository verwaltet sich selbst. Bei jedem Push auf `category/**/*.json` oder `connections/**/*.json` laufen GitHub Actions und:
+The repository maintains itself. On every push to `category/**/*.json` or `connections/**/*.json`, GitHub Actions:
 
-1. **vergeben automatisch IDs** für neue Einträge ohne `id`
-2. **benennen Dateien** passend zur vergebenen ID um
-3. **validieren** jeden Eintrag gegen das Schema in `schemas/`
-4. **prüfen auf Duplikate** (gleiche URL oder sehr ähnlicher Name)
-5. **bauen alle Index-Dateien** in `meta/` neu:
+1. **automatically assigns IDs** to new entries without an `id`
+2. **renames files** to match the assigned ID
+3. **validates** every entry against the schema in `schemas/`
+4. **checks for duplicates** (same URL or very similar name)
+5. **rebuilds all index files** in `meta/`:
 
 ```
 meta/
@@ -197,26 +197,26 @@ meta/
 └── search_index.json
 ```
 
-Diese Dateien werden **nicht manuell gepflegt** – sie entstehen automatisch aus den vorhandenen Daten und werden vom Workflow zurück ins Repository committet.
+These files are **not maintained manually** — they are generated automatically from the existing data and committed back to the repository by the workflow.
 
-➡️ Technische Details zum Workflow: [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
-➡️ Wie man einen Eintrag hinzufügt: [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
+➡️ Technical details on the workflow: [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
+➡️ How to add an entry: [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
 
-## Langfristige Vision
+## Long-Term Vision
 
-Project Alexandria soll keine KI ersetzen. Es soll KIs besser machen.
+Project Alexandria is not meant to replace AI. It is meant to make AI better.
 
-Eine einzelne KI besitzt immer nur begrenztes Wissen. Aber ein offener, strukturierter Wissensspeicher kann über Jahrzehnte wachsen.
+A single AI always has limited knowledge. But an open, structured knowledge store can grow over decades.
 
-Die Vision: Eine lebendige Wissensbibliothek, die von Menschen und Maschinen gemeinsam aufgebaut wird und zukünftigen Generationen hilft, neue Zusammenhänge zu entdecken.
+The vision: a living knowledge library, built jointly by humans and machines, helping future generations discover new connections.
 
-## Philosophie
+## Philosophy
 
-Project Alexandria basiert auf einem einfachen Gedanken:
+Project Alexandria is based on a simple idea:
 
-Die Menschheit besitzt bereits unglaublich viel Wissen. Das Problem ist nicht nur fehlendes Wissen. Das Problem ist: **Wissen ist verstreut.**
+Humanity already possesses an incredible amount of knowledge. The problem is not just missing knowledge. The problem is: **knowledge is scattered.**
 
-Project Alexandria versucht, dieses Wissen wieder miteinander zu verbinden.
+Project Alexandria tries to reconnect this knowledge.
 
 ```
 Collect first.
@@ -224,7 +224,7 @@ Connect later.
 Discover last.
 ```
 
-## Lizenz
+## License
 
-- Code (`scripts/`, Workflows): [MIT](LICENSE)
-- Daten (`category/`, `connections/`, `meta/`): [CC0 1.0](DATA_LICENSE) – gemeinfrei, damit Wissen frei fließen kann.
+- Code (`scripts/`, workflows): [MIT](LICENSE)
+- Data (`category/`, `connections/`, `meta/`): [CC0 1.0](DATA_LICENSE) — public domain, so knowledge can flow freely.

@@ -1,13 +1,13 @@
 # GEMINI.md
 
-Hinweise speziell für Gemini (Google).
+Notes specific to Gemini (Google).
 
-Lies zuerst `README.md`, dann `AGENTS.md`, dann `MISSION.md`. Diese Datei
-enthält nur Ergänzungen, keine eigenen Regeln.
+Read `README.md` first, then `AGENTS.md`, then `MISSION.md`. This file
+only contains additions, not its own rules.
 
-## Für Gemini relevant
+## Relevant for Gemini
 
-- Gemini neigt dazu, bei Recherche-Aufgaben zusätzlichen Kontext/Prosa
-  mitzuliefern — bei Project Alexandria bitte **nur** die strukturierte
-  JSON-Datei anlegen (Regel 3, keine langen Zusammenfassungen).
-- Setze `id` nicht selbst, siehe Regel 6 in `AGENTS.md`.
+- Gemini tends to add extra context/prose during research tasks —
+  for Project Alexandria, please create **only** the structured
+  JSON file (Rule 3, no long summaries).
+- Do not set `id` yourself, see Rule 6 in `AGENTS.md`.

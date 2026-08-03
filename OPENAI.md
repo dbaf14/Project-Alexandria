@@ -1,14 +1,14 @@
 # OPENAI.md
 
-Hinweise speziell für ChatGPT / OpenAI-Modelle.
+Notes specific to ChatGPT / OpenAI models.
 
-Lies zuerst `README.md`, dann `AGENTS.md`, dann `MISSION.md`. Diese Datei
-enthält nur Ergänzungen, keine eigenen Regeln.
+Read `README.md` first, then `AGENTS.md`, then `MISSION.md`. This file
+only contains additions, not its own rules.
 
-## Für ChatGPT relevant
+## Relevant for ChatGPT
 
-- Erzeuge beim Anlegen eines Eintrags valides JSON ohne Kommentare
-  (JSON kennt kein `//`) und ohne trailing commas.
-- Halte dich an das in `schemas/entry.schema.json` definierte Feldset —
-  keine zusätzlichen Felder ohne Rücksprache.
-- Setze `id` nicht selbst, siehe Regel 6 in `AGENTS.md`.
+- When creating an entry, produce valid JSON without comments
+  (JSON has no `//`) and without trailing commas.
+- Stick to the field set defined in `schemas/entry.schema.json` —
+  no extra fields without prior discussion.
+- Do not set `id` yourself, see Rule 6 in `AGENTS.md`.
