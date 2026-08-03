@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "ggerganov/llama.cpp",
+  "location": "https://github.com/ggerganov/llama.cpp",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "Model compatibility depends on supported formats.",
+    "Performance depends on available hardware acceleration."
+  ],
+  "depends_on": [
+    "C++"
+  ],
+  "tags": [
+    "llm",
+    "inference",
+    "cpp",
+    "ai",
+    "machine-learning"
+  ],
+  "source_notes": "Inference framework for running large language models."
+}
