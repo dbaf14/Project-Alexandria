@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project-alexandria/schemas/entry.schema.json",
+  "title": "Project Alexandria Knowledge Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "name", "location", "status", "works", "development", "problems", "depends_on", "tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Wird automatisch vom Workflow vergeben (Format PREFIX-000001). Beim Anlegen weglassen oder 'unknown' setzen.",
+      "pattern": "^([A-Z]+-[0-9]{6}|unknown)$"
+    },
+    "type": {
+      "type": "string",
+      "description": "Art der Quelle. Bestimmt den ID-Prefix, siehe scripts/assign_ids.py",
+      "enum": [
+        "github",
+        "paper",
+        "patent",
+        "documentation",
+        "dataset",
+        "research_project",
+        "historical_document",
+        "other"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "location": {
+      "type": "string",
+      "description": "URL, DOI, Patentnummer oder vergleichbarer eindeutiger Locator",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "inactive", "abandoned", "archived", "unknown"]
+    },
+    "works": {
+      "type": ["boolean", "string"],
+      "description": "true/false, oder 'unknown' wenn nicht überprüfbar",
+      "enum": [true, false, "unknown"]
+    },
+    "development": {
+      "type": "string",
+      "enum": ["ongoing", "stalled", "finished", "abandoned", "unknown"]
+    },
+    "problems": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Neutral formulierte, beobachtbare Probleme. Keine Wertungen."
+    },
+    "depends_on": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "added": {
+      "type": "string",
+      "description": "ISO-8601 Datum, wird vom Workflow gesetzt falls fehlend",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "description": "ISO-8601 Datum, wird vom Workflow bei Änderungen aktualisiert",
+      "format": "date"
+    },
+    "source_notes": {
+      "type": "string",
+      "description": "Optionale, sehr kurze objektive Notiz (keine Zusammenfassung, siehe Regel 3)",
+      "maxLength": 300
+    }
+  }
+}

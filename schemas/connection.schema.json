@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project-alexandria/schemas/connection.schema.json",
+  "title": "Project Alexandria Connection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["related", "reason"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(CON-[0-9]{6}|unknown)$",
+      "description": "Wird automatisch vergeben, Format CON-000001"
+    },
+    "related": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "description": "IDs der verbundenen Einträge, z. B. ['PAPER-000231', 'GH-000921']"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "Kurze, neutrale Begründung der Verbindung"
+    },
+    "common_tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "added": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

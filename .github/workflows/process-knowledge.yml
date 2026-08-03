@@ -1,0 +1,60 @@
+name: Process Knowledge
+
+# Laeuft bei jedem Push auf main, der category/ oder connections/ Dateien
+# aendert (also z.B. wenn jemand einfach eine neue JSON in einen
+# category/-Unterordner wirft und pusht) sowie manuell per
+# workflow_dispatch.
+#
+# Reihenfolge (siehe scripts/run_all.py):
+#   1. IDs vergeben + Dateien umbenennen
+#   2. Schema validieren (bricht bei Fehlern ab, KEIN Commit)
+#   3. Duplicate-Check
+#   4. Alle meta/*.json Indexe neu bauen
+#   5. Ergebnis zurueck committen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "category/**/*.json"
+      - "connections/**/*.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: process-knowledge-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run full pipeline (IDs, validation, duplicates, index)
+        run: python scripts/run_all.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "alexandria-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add category/ connections/ meta/
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen zum Committen."
+          else
+            git commit -m "chore: auto-update IDs, index and duplicate check [skip ci]"
+            git push
+          fi

@@ -1,0 +1,35 @@
+name: Validate Pull Request
+
+# Laeuft bei jedem PR, der category/ oder connections/ Dateien aendert.
+# Committet NICHTS zurueck (PRs koennen aus Forks kommen -> keine
+# Schreibrechte). Prueft nur, ob die eingereichten Eintraege gueltiges
+# JSON sind und dem Schema entsprechen.
+
+on:
+  pull_request:
+    paths:
+      - "category/**/*.json"
+      - "connections/**/*.json"
+      - "schemas/**"
+      - "scripts/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate entries against schema
+        run: python scripts/validate_entries.py
