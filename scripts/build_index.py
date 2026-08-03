@@ -2,11 +2,11 @@
 """
 build_index.py
 
-Baut alle Index-Dateien in meta/ komplett neu aus dem aktuellen Inhalt von
-category/ und connections/. Wird immer NACH assign_ids.py und
-validate_entries.py ausgefuehrt, damit IDs final und Daten gueltig sind.
+Rebuilds all index files in meta/ completely from the current contents
+of category/ and connections/. Always run AFTER assign_ids.py and
+validate_entries.py, so IDs are final and data is valid.
 
-Erzeugt:
+Generates:
 - meta/analyzed_sources.json
 - meta/statistics.json
 - meta/tags.json
@@ -14,8 +14,8 @@ Erzeugt:
 - meta/dependency_index.json
 - meta/search_index.json
 
-(meta/duplicate_check.json wird separat von detect_duplicates.py erzeugt,
- meta/id_counters.json separat von assign_ids.py)
+(meta/duplicate_check.json is generated separately by detect_duplicates.py,
+ meta/id_counters.json separately by assign_ids.py)
 """
 import json
 from collections import defaultdict

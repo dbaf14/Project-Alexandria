@@ -2,14 +2,14 @@
 """
 assign_ids.py
 
-Scannt category/**/*.json und connections/*.json.
-Vergibt fuer jeden Eintrag ohne gueltige ID eine neue eindeutige ID
-(Format PREFIX-000001), setzt sie im JSON und benennt die Datei passend um.
-Der Prefix haengt beim Eintrag vom Feld "type" ab, bei Connections ist er
-immer CON.
+Scans category/**/*.json and connections/*.json.
+Assigns a new unique ID (format PREFIX-000001) to every entry without a
+valid ID, sets it in the JSON, and renames the file accordingly.
+The prefix depends on the entry's "type" field; for connections it is
+always CON.
 
-Zaehler werden persistent in meta/id_counters.json gehalten, damit IDs auch
-ueber mehrere Workflow-Laeufe hinweg eindeutig bleiben.
+Counters are kept persistently in meta/id_counters.json so IDs stay
+unique across multiple workflow runs.
 """
 import json
 from pathlib import Path

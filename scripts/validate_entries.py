@@ -2,12 +2,12 @@
 """
 validate_entries.py
 
-Validiert alle Dateien in category/**/*.json gegen schemas/entry.schema.json
-und alle Dateien in connections/*.json gegen schemas/connection.schema.json.
+Validates all files in category/**/*.json against schemas/entry.schema.json
+and all files in connections/*.json against schemas/connection.schema.json.
 
-Exit code 0 = alles gueltig, 1 = mindestens ein Fehler.
-Wird sowohl im PR-Workflow (nur pruefen) als auch im Push-Workflow
-(pruefen vor dem Index-Bau) verwendet.
+Exit code 0 = all valid, 1 = at least one error.
+Used both in the PR workflow (validation only) and the push workflow
+(validate before building the index).
 """
 import json
 import sys
@@ -16,7 +16,7 @@ from pathlib import Path
 try:
     from jsonschema import Draft7Validator
 except ImportError:
-    print("jsonschema fehlt. Installiere mit: pip install -r scripts/requirements.txt")
+    print("jsonschema is missing. Install with: pip install -r scripts/requirements.txt")
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent

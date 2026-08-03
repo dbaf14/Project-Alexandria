@@ -2,16 +2,16 @@
 """
 detect_duplicates.py
 
-Erkennt moegliche Duplikate unter den category/**/*.json Eintraegen:
+Detects possible duplicates among the category/**/*.json entries:
 
-1. Exakte Duplikate: identische (normalisierte) "location"-URL
-2. Wahrscheinliche Duplikate: sehr aehnlicher "name" (SequenceMatcher-Ratio
-   ueber THRESHOLD), unabhaengig von der Kategorie
+1. Exact duplicates: identical (normalized) "location" URL
+2. Likely duplicates: very similar "name" (SequenceMatcher ratio above
+   THRESHOLD), regardless of category
 
-Schreibt das Ergebnis nach meta/duplicate_check.json. Faellt NICHT den
-Workflow, sondern dient nur als Hinweis fuer Menschen/Agenten -- die
-tatsaechliche Bewertung ("ist das wirklich ein Duplikat?") bleibt bewusst
-Phase 3 vorbehalten (Regel 2: keine Bewertungen).
+Writes the result to meta/duplicate_check.json. Does NOT fail the
+workflow — it only serves as a hint for humans/agents. The actual
+judgment ("is this really a duplicate?") is deliberately left to
+Phase 3 (Rule 2: no evaluations).
 """
 import json
 from difflib import SequenceMatcher
@@ -106,7 +106,7 @@ def main():
         "generated_from": "scripts/detect_duplicates.py",
         "total_entries_checked": len(entries),
         "potential_duplicates_found": len(duplicates),
-        "note": "Automatisch generiert. Keine Bewertung, nur Hinweis (Regel 2).",
+        "note": "Automatically generated. No evaluation, hint only (Rule 2).",
         "duplicates": duplicates,
     }
 
