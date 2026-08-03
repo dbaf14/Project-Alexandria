@@ -1,5 +1,5 @@
 {
-  "unique_dependencies": 52,
+  "unique_dependencies": 53,
   "dependencies": {
     "C++": [
       "GH-000028"
@@ -7,9 +7,13 @@
     "Large Language Models": [
       "GH-000027"
     ],
+    "PyTorch": [
+      "GH-000029"
+    ],
     "Python": [
       "GH-000025",
-      "GH-000027"
+      "GH-000027",
+      "GH-000029"
     ],
     "behaviortree-cpp": [
       "GH-000011"

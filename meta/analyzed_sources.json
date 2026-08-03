@@ -1,5 +1,5 @@
 {
-  "count": 32,
+  "count": 33,
   "sources": [
     {
       "id": "GH-000003",
@@ -162,6 +162,15 @@
       "location": "https://github.com/ggerganov/llama.cpp",
       "status": "active",
       "file": "category/programming/GH-000028.json"
+    },
+    {
+      "id": "GH-000029",
+      "type": "github",
+      "category": "programming",
+      "name": "vllm-project/vllm",
+      "location": "https://github.com/vllm-project/vllm",
+      "status": "active",
+      "file": "category/programming/GH-000029.json"
     },
     {
       "id": "PAPER-000001",

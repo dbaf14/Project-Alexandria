@@ -1,5 +1,5 @@
 {
-  "count": 32,
+  "count": 33,
   "entries": [
     {
       "id": "GH-000003",
@@ -220,6 +220,19 @@
         "machine-learning"
       ],
       "text": "ggerganov/llama.cpp github programming llm inference cpp ai machine-learning model compatibility depends on supported formats. performance depends on available hardware acceleration. c++"
+    },
+    {
+      "id": "GH-000029",
+      "name": "vllm-project/vllm",
+      "category": "programming",
+      "tags": [
+        "llm",
+        "serving",
+        "gpu",
+        "pytorch",
+        "inference"
+      ],
+      "text": "vllm-project/vllm github programming llm serving gpu pytorch inference gpu support varies between hardware platforms. some features depend on supported model architectures. python pytorch"
     },
     {
       "id": "PAPER-000001",

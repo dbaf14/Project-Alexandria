@@ -1,5 +1,5 @@
 {
-  "unique_tags": 111,
+  "unique_tags": 114,
   "tags": {
     "3d-simulation": [
       "GH-000007"
@@ -122,6 +122,9 @@
     "github": [
       "GH-000026"
     ],
+    "gpu": [
+      "GH-000029"
+    ],
     "imitation-learning": [
       "GH-000008"
     ],
@@ -129,7 +132,8 @@
       "GH-000022"
     ],
     "inference": [
-      "GH-000028"
+      "GH-000028",
+      "GH-000029"
     ],
     "javascript-runtime": [
       "GH-000019"
@@ -152,7 +156,8 @@
     "llm": [
       "GH-000025",
       "GH-000027",
-      "GH-000028"
+      "GH-000028",
+      "GH-000029"
     ],
     "llm-inference": [
       "GH-000003"
@@ -255,6 +260,9 @@
     "python": [
       "GH-000025"
     ],
+    "pytorch": [
+      "GH-000029"
+    ],
     "quantization": [
       "GH-000003"
     ],
@@ -304,6 +312,9 @@
     ],
     "sensor-simulation": [
       "GH-000007"
+    ],
+    "serving": [
+      "GH-000029"
     ],
     "slam": [
       "GH-000014"
