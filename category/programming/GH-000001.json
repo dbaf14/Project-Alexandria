@@ -21,5 +21,6 @@
     "game-port",
     "reverse-engineering"
   ],
-  "source_notes": "Uses N64: Recompiled to statically recompile the original N64 binary into a native PC port, using headers from the Bomberman 64 decompilation project."
+  "source_notes": "Uses N64: Recompiled to statically recompile the original N64 binary into a native PC port, using headers from the Bomberman 64 decompilation project.",
+  "id": "GH-000001"
 }

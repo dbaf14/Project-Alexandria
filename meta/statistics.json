@@ -1,10 +1,22 @@
 {
-  "generated_at": null,
-  "total_entries": 0,
+  "generated_at": "2026-08-03T01:44:50.019779+00:00",
+  "total_entries": 2,
   "total_connections": 0,
-  "by_category": {},
-  "by_type": {},
-  "by_status": {},
-  "by_development": {},
-  "works": { "true": 0, "false": 0, "unknown": 0 }
+  "by_category": {
+    "programming": 2
+  },
+  "by_type": {
+    "github": 2
+  },
+  "by_status": {
+    "active": 2
+  },
+  "by_development": {
+    "ongoing": 2
+  },
+  "works": {
+    "true": 2,
+    "false": 0,
+    "unknown": 0
+  }
 }

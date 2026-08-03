@@ -1,4 +1,23 @@
 {
-  "count": 0,
-  "sources": []
+  "count": 2,
+  "sources": [
+    {
+      "id": "GH-000001",
+      "type": "github",
+      "category": "programming",
+      "name": "Bomberman 64: Recompiled",
+      "location": "https://github.com/RevoSucks/BM64Recomp",
+      "status": "active",
+      "file": "category/programming/GH-000001.json"
+    },
+    {
+      "id": "GH-000002",
+      "type": "github",
+      "category": "programming",
+      "name": "N64: Recompiled (N64Recomp)",
+      "location": "https://github.com/N64Recomp/N64Recomp",
+      "status": "active",
+      "file": "category/programming/GH-000002.json"
+    }
+  ]
 }

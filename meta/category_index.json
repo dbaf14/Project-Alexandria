@@ -1,3 +1,8 @@
 {
-  "categories": {}
+  "categories": {
+    "programming": [
+      "GH-000001",
+      "GH-000002"
+    ]
+  }
 }

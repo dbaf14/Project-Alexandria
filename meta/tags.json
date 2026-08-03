@@ -1,4 +1,23 @@
 {
-  "unique_tags": 0,
-  "tags": {}
+  "unique_tags": 5,
+  "tags": {
+    "compiler-toolchain": [
+      "GH-000002"
+    ],
+    "game-port": [
+      "GH-000001"
+    ],
+    "n64": [
+      "GH-000001",
+      "GH-000002"
+    ],
+    "reverse-engineering": [
+      "GH-000001",
+      "GH-000002"
+    ],
+    "static-recompilation": [
+      "GH-000001",
+      "GH-000002"
+    ]
+  }
 }

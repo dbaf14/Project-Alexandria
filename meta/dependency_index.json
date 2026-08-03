@@ -1,4 +1,20 @@
 {
-  "unique_dependencies": 0,
-  "dependencies": {}
+  "unique_dependencies": 5,
+  "dependencies": {
+    "c": [
+      "GH-000002"
+    ],
+    "cpp-compiler": [
+      "GH-000002"
+    ],
+    "directx-12-or-vulkan-1.2-or-metal": [
+      "GH-000001"
+    ],
+    "n64recomp": [
+      "GH-000001"
+    ],
+    "rt64": [
+      "GH-000001"
+    ]
+  }
 }

@@ -18,5 +18,6 @@
     "reverse-engineering",
     "compiler-toolchain"
   ],
-  "source_notes": "Tool to statically recompile N64 binaries into C code, usable for game ports (e.g. Zelda 64: Recompiled, Bomberman 64: Recompiled) or standalone simulation."
+  "source_notes": "Tool to statically recompile N64 binaries into C code, usable for game ports (e.g. Zelda 64: Recompiled, Bomberman 64: Recompiled) or standalone simulation.",
+  "id": "GH-000002"
 }

@@ -1,4 +1,29 @@
 {
-  "count": 0,
-  "entries": []
+  "count": 2,
+  "entries": [
+    {
+      "id": "GH-000001",
+      "name": "Bomberman 64: Recompiled",
+      "category": "programming",
+      "tags": [
+        "static-recompilation",
+        "n64",
+        "game-port",
+        "reverse-engineering"
+      ],
+      "text": "bomberman 64: recompiled github programming static-recompilation n64 game-port reverse-engineering requires a legally dumped us n64 rom of bomberman 64, no game assets included only windows executable provided at initial release, other os support planned minor graphical clipping issue in credits screen n64recomp rt64 directx-12-or-vulkan-1.2-or-metal"
+    },
+    {
+      "id": "GH-000002",
+      "name": "N64: Recompiled (N64Recomp)",
+      "category": "programming",
+      "tags": [
+        "static-recompilation",
+        "n64",
+        "reverse-engineering",
+        "compiler-toolchain"
+      ],
+      "text": "n64: recompiled (n64recomp) github programming static-recompilation n64 reverse-engineering compiler-toolchain requires a curated list of symbols and metadata alongside the binary to work c cpp-compiler"
+    }
+  ]
 }
