@@ -1,19 +1,20 @@
 # Contributing
 
-## Einen Eintrag hinzufügen (Mensch oder KI-Agent)
+## Adding an Entry (Human or AI Agent)
 
-1. Wähle den passenden Ordner unter `category/` (z. B. `category/robotics/`).
-   Wenn keine Kategorie richtig passt, nimm die nächstbeste und nutze `tags`
-   für die feinere Einordnung. Lege keine neue Top-Level-Kategorie an, ohne
-   das im Repo abzustimmen (Issue/PR-Diskussion).
+1. Choose the appropriate folder under `category/` (e.g.
+   `category/robotics/`). If no category fits well, use the closest one
+   and rely on `tags` for finer classification. Don't create a new
+   top-level category without discussing it in the repo (issue/PR
+   discussion).
 
-2. Erstelle eine neue JSON-Datei nach dem Schema in
-   [`schemas/entry.schema.json`](../schemas/entry.schema.json). Der
-   Dateiname ist zunächst egal — z. B. `neu.json` oder ein sprechender
-   Name wie `pytorch-lightning.json`. **Lass das Feld `id` weg** oder setze
-   es auf `"unknown"`.
+2. Create a new JSON file following the schema in
+   [`schemas/entry.schema.json`](../schemas/entry.schema.json). The
+   file name doesn't matter for now — e.g. `new.json` or a descriptive
+   name like `pytorch-lightning.json`. **Leave out the `id` field** or
+   set it to `"unknown"`.
 
-   Minimalbeispiel:
+   Minimal example:
 
    ```json
    {
@@ -29,51 +30,54 @@
    }
    ```
 
-3. Committe und pushe direkt auf `main` (oder öffne einen PR, siehe unten).
+3. Commit and push directly to `main` (or open a PR, see below).
 
-4. Auf Push auf `main` läuft automatisch der Workflow
-   `.github/workflows/process-knowledge.yml`:
-   - vergibt eine eindeutige ID (z. B. `GH-000123`) basierend auf dem Feld `type`
-   - benennt deine Datei automatisch in `<ID>.json` um
-   - validiert den Eintrag gegen das Schema
-   - prüft auf mögliche Duplikate
-   - baut alle Indexe in `meta/` neu
-   - committet das Ergebnis automatisch zurück auf `main`
+4. On push to `main`, the workflow
+   `.github/workflows/process-knowledge.yml` automatically:
+   - assigns a unique ID (e.g. `GH-000123`) based on the `type` field
+   - renames your file to `<ID>.json`
+   - validates the entry against the schema
+   - checks for possible duplicates
+   - rebuilds all indexes in `meta/`
+   - commits the result back to `main` automatically
 
-   Du musst danach nur noch `git pull`, wenn du lokal weiterarbeiten willst.
+   Afterward you just need to `git pull` if you want to keep working
+   locally.
 
-## Über einen Pull Request beitragen
+## Contributing via Pull Request
 
-Wenn du keine Schreibrechte auf `main` hast (z. B. externer Contributor):
+If you don't have write access to `main` (e.g. external contributor):
 
-1. Fork das Repository, lege deine JSON-Datei im passenden `category/`-Ordner an.
-2. Öffne einen Pull Request.
-3. Der Workflow `.github/workflows/validate-pr.yml` prüft automatisch, ob
-   dein JSON gültig ist und dem Schema entspricht (Ergebnis im PR sichtbar).
-4. Nach dem Merge auf `main` übernimmt der Push-Workflow ID-Vergabe,
-   Umbenennung und Index-Bau automatisch.
+1. Fork the repository, add your JSON file to the appropriate
+   `category/` folder.
+2. Open a pull request.
+3. The workflow `.github/workflows/validate-pr.yml` automatically checks
+   whether your JSON is valid and matches the schema (result shown in
+   the PR).
+4. After merging into `main`, the push workflow automatically handles
+   ID assignment, renaming, and index building.
 
-## Einen bestehenden Eintrag korrigieren
+## Correcting an Existing Entry
 
-Nur erlaubt, wenn ein **Fakt** falsch ist (z. B. tote URL, falscher `type`).
-Bearbeite die Datei direkt unter ihrer vergebenen ID
-(`category/<kategorie>/<ID>.json`). Lösche keine Einträge nur weil ein
-Projekt inaktiv oder gescheitert ist — nutze `"status": "abandoned"` bzw.
-`"works": false` (siehe Regel 4 in [`AGENTS.md`](../AGENTS.md)).
+Only allowed when a **fact** is wrong (e.g. dead URL, wrong `type`).
+Edit the file directly at its assigned ID
+(`category/<category>/<ID>.json`). Do not delete entries just because a
+project is inactive or has failed — use `"status": "abandoned"` or
+`"works": false` instead (see Rule 4 in [`AGENTS.md`](../AGENTS.md)).
 
-## Eine Verbindung hinzufügen (Phase 2)
+## Adding a Connection (Phase 2)
 
-Sobald genug Einträge existieren, können Verbindungen in `connections/`
-angelegt werden, nach dem Schema in
+Once enough entries exist, connections can be added in `connections/`,
+following the schema in
 [`schemas/connection.schema.json`](../schemas/connection.schema.json).
-Auch hier: `id` weglassen, wird automatisch vergeben.
+Again: leave out `id`, it's assigned automatically.
 
-## Lokal testen, bevor du pushst
+## Testing Locally Before Pushing
 
 ```bash
 pip install -r scripts/requirements.txt
 python scripts/run_all.py
 ```
 
-Das führt die komplette Pipeline lokal aus (ID-Vergabe, Validierung,
-Duplicate-Check, Index-Bau) — genau das, was auch der Workflow macht.
+This runs the full pipeline locally (ID assignment, validation,
+duplicate check, index building) — exactly what the workflow does.

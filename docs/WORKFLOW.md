@@ -1,33 +1,33 @@
-# Workflow-Dokumentation
+# Workflow Documentation
 
-## Übersicht
+## Overview
 
-Zwei GitHub-Actions-Workflows kümmern sich um die Automatisierung:
+Two GitHub Actions workflows handle the automation:
 
-| Workflow | Trigger | Zweck | Committet? |
+| Workflow | Trigger | Purpose | Commits? |
 |---|---|---|---|
-| `validate-pr.yml` | Pull Request auf `category/**`, `connections/**` | Nur validieren | Nein |
-| `process-knowledge.yml` | Push auf `main` (gleiche Pfade) oder manuell | Volle Pipeline | Ja, automatisch |
+| `validate-pr.yml` | Pull request touching `category/**`, `connections/**` | Validate only | No |
+| `process-knowledge.yml` | Push to `main` (same paths) or manual | Full pipeline | Yes, automatically |
 
-## Pipeline im Detail (`scripts/run_all.py`)
+## Pipeline in Detail (`scripts/run_all.py`)
 
 ```
-1. assign_ids.py         IDs vergeben, Dateien umbenennen
-2. validate_entries.py   Schema-Validierung — bricht bei Fehlern ab
-3. detect_duplicates.py  Duplicate-Check schreiben
-4. build_index.py        Alle meta/*.json neu bauen
+1. assign_ids.py         Assign IDs, rename files
+2. validate_entries.py   Schema validation — aborts on errors
+3. detect_duplicates.py  Write duplicate check
+4. build_index.py        Rebuild all meta/*.json
 ```
 
-Die Reihenfolge ist bewusst so gewählt: Erst müssen IDs final sein (Schritt 1),
-bevor validiert werden kann (Schritt 2), bevor Duplikate und Indexe auf
-Basis der finalen, gültigen Daten gebaut werden (Schritt 3+4). Schlägt
-Schritt 2 fehl, bricht die Pipeline sofort ab — es wird nichts committet.
+The order is deliberate: IDs must be final (step 1) before validation can
+happen (step 2), before duplicates and indexes are built from the final,
+valid data (step 3+4). If step 2 fails, the pipeline stops immediately —
+nothing gets committed.
 
-## ID-Vergabe (`scripts/assign_ids.py`)
+## ID Assignment (`scripts/assign_ids.py`)
 
-- Prefix wird aus dem Feld `type` abgeleitet:
+- The prefix is derived from the `type` field:
 
-  | `type` | Prefix | Beispiel |
+  | `type` | Prefix | Example |
   |---|---|---|
   | `github` | `GH` | `GH-000123` |
   | `paper` | `PAPER` | `PAPER-000231` |
@@ -36,62 +36,61 @@ Schritt 2 fehl, bricht die Pipeline sofort ab — es wird nichts committet.
   | `dataset` | `DATA` | `DATA-000001` |
   | `research_project` | `RES` | `RES-000001` |
   | `historical_document` | `HIST` | `HIST-000001` |
-  | `other` / unbekannt | `SRC` | `SRC-000001` |
+  | `other` / unknown | `SRC` | `SRC-000001` |
   | Connections (`connections/`) | `CON` | `CON-000001` |
 
-- Zähler liegen persistent in `meta/id_counters.json` (ein Zähler pro Prefix),
-  damit IDs auch über viele Workflow-Läufe hinweg eindeutig bleiben und
-  nicht kollidieren.
-- Ein Eintrag ohne `id` (oder mit `"id": "unknown"`) bekommt beim nächsten
-  Durchlauf eine neue ID. Die Datei wird automatisch in `<ID>.json`
-  umbenannt (unabhängig davon, wie sie vorher hieß).
-- Bereits vergebene IDs werden nicht neu vergeben — der Schritt ist idempotent.
+- Counters live persistently in `meta/id_counters.json` (one counter per
+  prefix), so IDs stay unique across many workflow runs and never
+  collide.
+- An entry without `id` (or with `"id": "unknown"`) gets a new ID on the
+  next run. The file is automatically renamed to `<ID>.json`
+  (regardless of what it was called before).
+- Already assigned IDs are never reassigned — this step is idempotent.
 
-## Validierung (`scripts/validate_entries.py`)
+## Validation (`scripts/validate_entries.py`)
 
-Nutzt `jsonschema` gegen `schemas/entry.schema.json` bzw.
-`schemas/connection.schema.json`. Gibt pro Datei `[OK]` oder `[FAIL]` mit
-genauer Fehlerstelle aus. Exit-Code 1 bei mindestens einem Fehler.
+Uses `jsonschema` against `schemas/entry.schema.json` or
+`schemas/connection.schema.json`. Prints `[OK]` or `[FAIL]` per file with
+the exact error location. Exit code 1 if at least one error occurs.
 
-## Duplicate-Check (`scripts/detect_duplicates.py`)
+## Duplicate Check (`scripts/detect_duplicates.py`)
 
-Zwei Heuristiken, beide bewusst konservativ (keine automatische Löschung,
-kein automatisches Merging — das wäre eine Bewertung, siehe Regel 2):
+Two heuristics, both deliberately conservative (no automatic deletion,
+no automatic merging — that would be an evaluation, see Rule 2):
 
-1. **Exakte URL-Duplikate**: `location` wird normalisiert (Protokoll,
-   `www.`, trailing slash entfernt, lowercased) und auf exakte Übereinstimmung
-   geprüft.
-2. **Ähnliche Namen**: `SequenceMatcher`-Ratio auf normalisierte Namen,
-   Schwellwert `0.88` (einstellbar in `NAME_SIMILARITY_THRESHOLD`).
+1. **Exact URL duplicates**: `location` is normalized (protocol,
+   `www.`, trailing slash removed, lowercased) and checked for an exact
+   match.
+2. **Similar names**: `SequenceMatcher` ratio on normalized names,
+   threshold `0.88` (adjustable via `NAME_SIMILARITY_THRESHOLD`).
 
-Ergebnis landet in `meta/duplicate_check.json` als reine Information — die
-Bewertung, ob es sich wirklich um ein Duplikat handelt, bleibt Menschen/
-Phase 3 überlassen.
+Results land in `meta/duplicate_check.json` as pure information — whether
+it's actually a duplicate is left to humans / Phase 3 to decide.
 
-## Index-Bau (`scripts/build_index.py`)
+## Index Building (`scripts/build_index.py`)
 
-Baut bei jedem Lauf **alle** `meta/*.json`-Dateien (außer `id_counters.json`
-und `duplicate_check.json`, die von den anderen Scripts verwaltet werden)
-komplett neu aus dem aktuellen Stand von `category/` und `connections/`.
-Kein inkrementelles Update — bei der aktuellen Projektgröße unproblematisch
-und deutlich weniger fehleranfällig als Diff-basiertes Patchen.
+Rebuilds **all** `meta/*.json` files (except `id_counters.json` and
+`duplicate_check.json`, which are managed by the other scripts)
+completely from the current state of `category/` and `connections/` on
+every run. Not incremental — unproblematic at the project's current
+scale and much less error-prone than diff-based patching.
 
 ## Auto-Commit
 
-`process-knowledge.yml` committet geänderte Dateien unter `category/`,
-`connections/` und `meta/` mit dem Bot-User `alexandria-bot` und der
-Commit-Message `chore: auto-update IDs, index and duplicate check [skip ci]`.
-Das `[skip ci]` verhindert, dass der Commit selbst wieder unnötige Läufe
-auslöst.
+`process-knowledge.yml` commits changed files under `category/`,
+`connections/`, and `meta/` using the bot user `alexandria-bot` and the
+commit message `chore: auto-update IDs, index and duplicate check [skip ci]`.
+The `[skip ci]` prevents the commit itself from triggering unnecessary
+runs.
 
-## Manuell auslösen
+## Triggering Manually
 
-Im GitHub-UI unter *Actions → Process Knowledge → Run workflow*, oder per
-GitHub CLI:
+In the GitHub UI under *Actions → Process Knowledge → Run workflow*, or
+via GitHub CLI:
 
 ```bash
 gh workflow run process-knowledge.yml
 ```
 
-Sinnvoll z. B. nach einem manuellen Edit an `schemas/` oder wenn mehrere
-PRs kurz hintereinander gemerged wurden.
+Useful e.g. after a manual edit to `schemas/`, or when several PRs were
+merged in quick succession.
