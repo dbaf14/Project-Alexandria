@@ -1,5 +1,5 @@
 {
-  "count": 29,
+  "count": 30,
   "sources": [
     {
       "id": "GH-000003",
@@ -135,6 +135,15 @@
       "location": "https://github.com/microsoft/markitdown",
       "status": "active",
       "file": "category/programming/GH-000025.json"
+    },
+    {
+      "id": "GH-000026",
+      "type": "github",
+      "category": "programming",
+      "name": "codecrafters-io/build-your-own-x",
+      "location": "https://github.com/codecrafters-io/build-your-own-x",
+      "status": "active",
+      "file": "category/programming/GH-000026.json"
     },
     {
       "id": "PAPER-000001",

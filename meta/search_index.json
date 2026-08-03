@@ -1,5 +1,5 @@
 {
-  "count": 29,
+  "count": 30,
   "entries": [
     {
       "id": "GH-000003",
@@ -181,6 +181,19 @@
         "microsoft"
       ],
       "text": "microsoft/markitdown github programming markdown document-conversion llm python microsoft conversion quality depends on the source document format. some proprietary document features are not preserved. python"
+    },
+    {
+      "id": "GH-000026",
+      "name": "codecrafters-io/build-your-own-x",
+      "category": "programming",
+      "tags": [
+        "education",
+        "programming",
+        "computer-science",
+        "learning",
+        "github"
+      ],
+      "text": "codecrafters-io/build-your-own-x github programming education programming computer-science learning github coverage depends on community contributions. external learning resources may become unavailable."
     },
     {
       "id": "PAPER-000001",

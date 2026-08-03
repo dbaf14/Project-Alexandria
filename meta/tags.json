@@ -1,5 +1,5 @@
 {
-  "unique_tags": 99,
+  "unique_tags": 104,
   "tags": {
     "3d-simulation": [
       "GH-000007"
@@ -42,6 +42,9 @@
     "component-based": [
       "GH-000021"
     ],
+    "computer-science": [
+      "GH-000026"
+    ],
     "concurrency": [
       "GH-000023"
     ],
@@ -74,6 +77,9 @@
     "edge-computing": [
       "GH-000003"
     ],
+    "education": [
+      "GH-000026"
+    ],
     "embedded": [
       "GH-000009"
     ],
@@ -98,6 +104,9 @@
     "generative-ai": [
       "GH-000004"
     ],
+    "github": [
+      "GH-000026"
+    ],
     "imitation-learning": [
       "GH-000008"
     ],
@@ -115,6 +124,9 @@
     ],
     "latent-diffusion": [
       "GH-000004"
+    ],
+    "learning": [
+      "GH-000026"
     ],
     "lidar": [
       "GH-000014"
@@ -206,6 +218,9 @@
     ],
     "physics-simulation": [
       "GH-000007"
+    ],
+    "programming": [
+      "GH-000026"
     ],
     "publish-subscribe": [
       "GH-000013"
