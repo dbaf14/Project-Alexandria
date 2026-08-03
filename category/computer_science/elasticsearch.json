@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "Elasticsearch",
+  "location": "https://github.com/elastic/elasticsearch",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "license changed from permissive Apache 2.0 (through 7.10) to source-available SSPL/Elastic License 2.0 (2021), prompting an AWS-led fork (OpenSearch); AGPLv3 was added as a third, OSI-approved option in September 2024"
+  ],
+  "depends_on": [
+    "java",
+    "lucene"
+  ],
+  "tags": [
+    "search-engine",
+    "full-text-search",
+    "distributed-systems",
+    "analytics"
+  ],
+  "source_notes": "Distributed search and analytics engine built on Apache Lucene, maintained by Elastic. Since 2024 dual/tri-licensed under SSPL 1.0, Elastic License 2.0, and AGPLv3 (client libraries remain Apache 2.0)."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "Apache Kafka",
+  "location": "https://github.com/apache/kafka",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "operating a self-managed cluster requires careful capacity planning around partitions, replication, and broker sizing"
+  ],
+  "depends_on": [
+    "java",
+    "scala",
+    "zookeeper-or-kraft"
+  ],
+  "tags": [
+    "event-streaming",
+    "message-broker",
+    "distributed-systems",
+    "pub-sub"
+  ],
+  "source_notes": "Distributed event streaming platform, originally developed at LinkedIn, now an Apache Software Foundation project. Used for high-throughput data pipelines and stream processing. Licensed under Apache License 2.0."
+}

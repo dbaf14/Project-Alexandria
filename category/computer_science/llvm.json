@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "LLVM Project",
+  "location": "https://github.com/llvm/llvm-project",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "large monorepo (LLVM core, Clang, LLD, libc++, and more combined) leads to long build times from source"
+  ],
+  "depends_on": [
+    "cpp",
+    "cmake"
+  ],
+  "tags": [
+    "compiler-infrastructure",
+    "toolchain",
+    "intermediate-representation",
+    "clang"
+  ],
+  "source_notes": "Collection of modular, reusable compiler and toolchain technologies (LLVM core, Clang C/C++ frontend, LLD linker, libc++). Originated at UIUC in 2000. Licensed under Apache License 2.0 with LLVM Exceptions."
+}

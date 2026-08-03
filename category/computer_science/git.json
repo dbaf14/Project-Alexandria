@@ -1,0 +1,20 @@
+{
+  "type": "github",
+  "name": "Git",
+  "location": "https://github.com/git/git",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "the mirror on GitHub is a read-only mirror; the canonical development happens on the Git mailing list and git.kernel.org, which can confuse contributors used to GitHub-native workflows"
+  ],
+  "depends_on": [
+    "c"
+  ],
+  "tags": [
+    "version-control",
+    "distributed-vcs",
+    "source-code-management"
+  ],
+  "source_notes": "Distributed version control system originally created by Linus Torvalds in 2005 for Linux kernel development. Licensed under GPLv2 (with some files under other compatible licenses)."
+}

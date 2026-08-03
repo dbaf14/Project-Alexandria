@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "Wasmtime",
+  "location": "https://github.com/bytecodealliance/wasmtime",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "WASI (WebAssembly System Interface) support spans multiple evolving proposal versions (preview1, preview2), which can require applications to track which WASI version a given host or guest targets"
+  ],
+  "depends_on": [
+    "rust",
+    "webassembly",
+    "wasi"
+  ],
+  "tags": [
+    "webassembly",
+    "runtime",
+    "sandboxing",
+    "wasi"
+  ],
+  "source_notes": "Standalone WebAssembly and WASI runtime, developed under the Bytecode Alliance. Focused on correctness, security (sandboxing), and speed for running Wasm outside the browser. Licensed under Apache License 2.0 with LLVM Exception."
+}

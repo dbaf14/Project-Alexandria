@@ -1,0 +1,21 @@
+{
+  "type": "github",
+  "name": "Zig",
+  "location": "https://github.com/ziglang/zig",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "language and standard library are pre-1.0 and still subject to breaking changes between releases"
+  ],
+  "depends_on": [
+    "llvm"
+  ],
+  "tags": [
+    "systems-programming",
+    "compiler",
+    "compile-time-execution",
+    "no-hidden-control-flow"
+  ],
+  "source_notes": "General-purpose systems programming language and toolchain positioned as an alternative to C, emphasizing simplicity, manual memory management, and compile-time code execution (comptime). Licensed under MIT."
+}

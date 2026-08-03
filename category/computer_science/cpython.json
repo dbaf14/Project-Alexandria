@@ -1,0 +1,20 @@
+{
+  "type": "github",
+  "name": "CPython",
+  "location": "https://github.com/python/cpython",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "the Global Interpreter Lock (GIL) has historically limited true multi-threaded parallelism; a no-GIL build variant is in active, separate development"
+  ],
+  "depends_on": [
+    "c"
+  ],
+  "tags": [
+    "programming-language",
+    "interpreter",
+    "reference-implementation"
+  ],
+  "source_notes": "Reference implementation of the Python programming language, written primarily in C. Maintained by the Python Software Foundation. Licensed under the PSF License Agreement."
+}
