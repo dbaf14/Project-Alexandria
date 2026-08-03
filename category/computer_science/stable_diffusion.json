@@ -1,0 +1,25 @@
+{
+  "type": "github",
+  "name": "Stable Diffusion (CompVis)",
+  "location": "https://github.com/CompVis/stable-diffusion",
+  "status": "unknown",
+  "works": true,
+  "development": "stalled",
+  "problems": [
+    "requires GPU with at least 10GB VRAM for original checkpoints",
+    "official Stability-AI fork (stablediffusion) repository has been unavailable/private since 2025, breaking downstream tools that clone it directly"
+  ],
+  "depends_on": [
+    "pytorch",
+    "cuda",
+    "clip",
+    "laion-5b-subset"
+  ],
+  "tags": [
+    "machine-learning",
+    "text-to-image",
+    "latent-diffusion",
+    "generative-ai"
+  ],
+  "source_notes": "Latent text-to-image diffusion model, originally by CompVis/Stability AI/Runway. Trained on a LAION-5B subset."
+}

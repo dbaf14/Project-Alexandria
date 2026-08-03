@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "llama.cpp",
+  "location": "https://github.com/ggml-org/llama.cpp",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "large model files require quantization to run on consumer hardware",
+    "frequent breaking changes to internal APIs as project evolves quickly"
+  ],
+  "depends_on": [
+    "ggml",
+    "c",
+    "cpp"
+  ],
+  "tags": [
+    "machine-learning",
+    "llm-inference",
+    "quantization",
+    "edge-computing"
+  ],
+  "source_notes": "Plain C/C++ inference engine for large language models, minimal setup, wide hardware support including Apple Silicon, CUDA, and Vulkan backends."
+}
