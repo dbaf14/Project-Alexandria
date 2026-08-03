@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "Gazebo Sim (gz-sim)",
+  "location": "https://github.com/gazebosim/gz-sim",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "mixed Debian and from-source installations can cause gz-tools command line tools to malfunction unless GZ_CONFIG_PATH is set correctly",
+    "naming transition from 'Ignition' to 'Gazebo' (2022 trademark issue) still causes confusion with older documentation and packages referencing the previous name"
+  ],
+  "depends_on": [
+    "sdformat",
+    "ogre",
+    "cpp"
+  ],
+  "tags": [
+    "robotics-simulation",
+    "physics-simulation",
+    "sensor-simulation",
+    "3d-simulation"
+  ],
+  "source_notes": "Open-source robotics simulator providing physics, rendering, and sensor models. Successor to Gazebo Classic, derived from over 16 years of development history. Maintained by Open Robotics."
+}

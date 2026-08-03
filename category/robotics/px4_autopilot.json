@@ -1,0 +1,24 @@
+{
+  "type": "github",
+  "name": "PX4 Autopilot",
+  "location": "https://github.com/PX4/PX4-Autopilot",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "requires --recursive git clone due to submodules, easy to miss and causes build failures"
+  ],
+  "depends_on": [
+    "nuttx",
+    "mavlink",
+    "uorb",
+    "cpp"
+  ],
+  "tags": [
+    "autopilot",
+    "drone",
+    "uav",
+    "flight-controller"
+  ],
+  "source_notes": "Open-source flight control software for drones and other unmanned vehicles (multirotors, fixed-wing, VTOL, rovers). Hosted by the Dronecode Foundation (Linux Foundation), licensed under BSD 3-Clause."
+}

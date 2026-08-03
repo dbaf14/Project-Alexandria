@@ -1,0 +1,22 @@
+{
+  "type": "github",
+  "name": "Bullet Physics SDK (bullet3)",
+  "location": "https://github.com/bulletphysics/bullet3",
+  "status": "unknown",
+  "works": true,
+  "development": "unknown",
+  "problems": [
+    "GitHub issue tracker has historically been closed at times due to being flooded with support questions, redirecting users to PyBullet forums instead"
+  ],
+  "depends_on": [
+    "cpp",
+    "opengl"
+  ],
+  "tags": [
+    "physics-engine",
+    "collision-detection",
+    "rigid-body-dynamics",
+    "pybullet"
+  ],
+  "source_notes": "Real-time collision detection and multi-physics simulation SDK used in games, visual effects, VR, robotics, and machine learning (via the PyBullet Python bindings). Licensed under the zlib license."
+}

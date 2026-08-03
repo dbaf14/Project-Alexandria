@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "ArduPilot",
+  "location": "https://github.com/ArduPilot/ardupilot",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "large codebase covering multiple vehicle firmwares (Copter, Plane, Rover, Sub, AntennaTracker) in one repository, increasing onboarding complexity"
+  ],
+  "depends_on": [
+    "mavlink",
+    "cpp",
+    "python"
+  ],
+  "tags": [
+    "autopilot",
+    "drone",
+    "uav",
+    "unmanned-vehicles"
+  ],
+  "source_notes": "Open-source autopilot software supporting multirotors, fixed-wing aircraft, helicopters, rovers, boats, and submarines. In development since 2010, licensed under GPLv3."
+}

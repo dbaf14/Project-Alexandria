@@ -1,0 +1,25 @@
+{
+  "type": "github",
+  "name": "ROS 2 (Robot Operating System 2)",
+  "location": "https://github.com/ros2/ros2",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "steep learning curve due to large number of interdependent packages and concepts (nodes, topics, services, actions, DDS middleware)",
+    "distribution-specific compatibility (Rolling, Jazzy, Humble, etc.) can complicate dependency management"
+  ],
+  "depends_on": [
+    "dds-middleware",
+    "cmake",
+    "python",
+    "cpp"
+  ],
+  "tags": [
+    "robot-operating-system",
+    "middleware",
+    "meta-operating-system",
+    "publish-subscribe"
+  ],
+  "source_notes": "Meta-repository for the Robot Operating System (ROS) 2, a meta operating system and middleware framework for robot software, maintained by Open Robotics / OSRF."
+}

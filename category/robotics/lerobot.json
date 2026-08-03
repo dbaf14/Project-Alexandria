@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "LeRobot",
+  "location": "https://github.com/huggingface/lerobot",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "hardware support tied to specific supported robot arms/platforms (e.g. SO100, Koch, LeKiwi); custom hardware requires additional integration work"
+  ],
+  "depends_on": [
+    "pytorch",
+    "python",
+    "huggingface-hub"
+  ],
+  "tags": [
+    "robot-learning",
+    "imitation-learning",
+    "machine-learning",
+    "manipulation"
+  ],
+  "source_notes": "Hugging Face library providing models, datasets, and tools for real-world robotics in PyTorch, with a hardware-agnostic Robot interface and standardized dataset format hosted on the Hugging Face Hub."
+}

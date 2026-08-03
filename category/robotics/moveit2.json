@@ -1,0 +1,23 @@
+{
+  "type": "github",
+  "name": "MoveIt 2",
+  "location": "https://github.com/moveit/moveit2",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "requires a working ROS 2 installation and correctly configured robot description (URDF/SRDF) before use"
+  ],
+  "depends_on": [
+    "ros2",
+    "ompl",
+    "cpp"
+  ],
+  "tags": [
+    "motion-planning",
+    "manipulation",
+    "robotic-arm",
+    "kinematics"
+  ],
+  "source_notes": "Motion planning framework for ROS 2 for robotic manipulation, covering motion planning, 3D perception, kinematics, control, and navigation. Maintained by the MoveIt community, led by PickNik Inc."
+}
