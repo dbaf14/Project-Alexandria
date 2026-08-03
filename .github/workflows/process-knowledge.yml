@@ -1,16 +1,16 @@
 name: Process Knowledge
 
-# Laeuft bei jedem Push auf main, der category/ oder connections/ Dateien
-# aendert (also z.B. wenn jemand einfach eine neue JSON in einen
-# category/-Unterordner wirft und pusht) sowie manuell per
+# Runs on every push to main that changes category/ or connections/
+# files (e.g. when someone simply drops a new JSON file into a
+# category/ subfolder and pushes), as well as manually via
 # workflow_dispatch.
 #
-# Reihenfolge (siehe scripts/run_all.py):
-#   1. IDs vergeben + Dateien umbenennen
-#   2. Schema validieren (bricht bei Fehlern ab, KEIN Commit)
-#   3. Duplicate-Check
-#   4. Alle meta/*.json Indexe neu bauen
-#   5. Ergebnis zurueck committen
+# Order (see scripts/run_all.py):
+#   1. Assign IDs + rename files
+#   2. Validate schema (aborts on errors, NO commit)
+#   3. Duplicate check
+#   4. Rebuild all meta/*.json indexes
+#   5. Commit the result back
 
 on:
   push:
@@ -51,9 +51,9 @@ jobs:
         run: |
           git config user.name "alexandria-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add category/ connections/ meta/
+          git add category/ connections/ meta/ README.md
           if git diff --cached --quiet; then
-            echo "Keine Aenderungen zum Committen."
+            echo "No changes to commit."
           else
             git commit -m "chore: auto-update IDs, index and duplicate check [skip ci]"
             git push

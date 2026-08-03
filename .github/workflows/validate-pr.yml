@@ -1,9 +1,9 @@
 name: Validate Pull Request
 
-# Laeuft bei jedem PR, der category/ oder connections/ Dateien aendert.
-# Committet NICHTS zurueck (PRs koennen aus Forks kommen -> keine
-# Schreibrechte). Prueft nur, ob die eingereichten Eintraege gueltiges
-# JSON sind und dem Schema entsprechen.
+# Runs on every PR that changes category/ or connections/ files.
+# Commits NOTHING back (PRs can come from forks -> no write access).
+# Only checks whether the submitted entries are valid JSON and match
+# the schema.
 
 on:
   pull_request:
