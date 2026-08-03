@@ -1,0 +1,21 @@
+{
+  "type": "github",
+  "name": "codecrafters-io/build-your-own-x",
+  "location": "https://github.com/codecrafters-io/build-your-own-x",
+  "status": "active",
+  "works": true,
+  "development": "ongoing",
+  "problems": [
+    "Coverage depends on community contributions.",
+    "External learning resources may become unavailable."
+  ],
+  "depends_on": [],
+  "tags": [
+    "education",
+    "programming",
+    "computer-science",
+    "learning",
+    "github"
+  ],
+  "source_notes": "Curated collection of programming projects."
+}
